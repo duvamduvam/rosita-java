@@ -1,0 +1,17 @@
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/MediaListener.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/KeyboardListener.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/PlayerManager.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/lights/Lights.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/MediaManager.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/OSValidator.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/lights/Position.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/Rosita.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/AudioPlayer.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/arduino/ArduinoComm.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/speech/Auth.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/lights/Color.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/lights/LedBlock.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/RositaMedia.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/CommandListener.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/midi/MidiHandler.java
+/home/david/Nextcloud/rosita/java/src/main/java/fr/duvam/video/AudioListener.java
