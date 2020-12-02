@@ -1,1 +1,0 @@
-put the lib librxtxSerial.so in /usr/lib/jvm/jdk-11.0.2/lib
