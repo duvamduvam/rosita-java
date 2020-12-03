@@ -1,12 +1,6 @@
 package fr.duvam;
 
-import org.apache.log4j.Logger;
-
-import fr.duvam.arduino.ArduinoComm;
-
 public class OSValidator {
-
-	private static final Logger LOGGER = Logger.getLogger(ArduinoComm.class);
 
 	private static String OS = System.getProperty("os.name", "generic").toLowerCase();
 
@@ -58,11 +52,6 @@ public class OSValidator {
 	}
 
 	public static String getFullOS() {
-		LOGGER.info("os.name " + System.getProperty("os.name"));
-		LOGGER.info("os.version " + System.getProperty("os.version"));
-		LOGGER.info("os.arch " + System.getProperty("os.arch"));
-		LOGGER.info("unknown " + System.getProperty("unknown"));
-		LOGGER.info("generic " + System.getProperty("generic"));
 		return OS + "-" + System.getProperty("os.name");
 	}
 

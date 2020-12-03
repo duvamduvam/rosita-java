@@ -17,7 +17,7 @@ import fr.duvam.video.PlayerManager;
 
 public class Rosita {
 
-	private static Logger LOGGER = Logger.getLogger(Rosita.class);
+	private static Logger LOGGER;
 	
 	private CommandListener listener;
 	private PlayerManager playerManager;
@@ -37,12 +37,13 @@ public class Rosita {
 
 		initLog();
 		
+		PropertiesUtil properties = new PropertiesUtil();
 		
 		MediaManager mediaManager = new MediaManager();
 		listener = new CommandListener(playerManager, mediaManager);
-		ArduinoComm arduino = new ArduinoComm(listener);
+		ArduinoComm arduino = new ArduinoComm(listener, properties);
 		MidiHandler midi = new MidiHandler(listener);
-		playerManager = new PlayerManager(mediaManager, listener, midi);
+		playerManager = new PlayerManager(mediaManager, listener, arduino, midi);
 		//lights = new Lights(arduino);
 		listener.setPlayerManager(playerManager);
 
@@ -54,7 +55,7 @@ public class Rosita {
 		try {
 			String logPrefix = OSValidator.getFullOS()+"-"+InetAddress.getLocalHost().getHostName();			
 			System.setProperty("hostName", logPrefix);
-			Logger LOGGER = Logger.getLogger(Rosita.class);
+			LOGGER = Logger.getLogger(Rosita.class);
 			LOGGER.info("<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		} catch (UnknownHostException e) {
 			LOGGER.error(e);
@@ -86,12 +87,6 @@ public class Rosita {
 		Thread lightsListenerThread = new Thread(lights);
 		lightsListenerThread.setDaemon(true);
 		lightsListenerThread.start();	
-		
-		// test key listener
-		/*TestKeyProvider testKeyListener = new TestKeyProvider(listener);
-		Thread testKeyListenerThread = new Thread(testKeyListener);
-		testKeyListenerThread.setDaemon(true);
-		testKeyListenerThread.start();	*/	
 		
 	}
 

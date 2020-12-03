@@ -29,7 +29,7 @@ public class PlayerManager {
 	private boolean isPlaying = false;
 	private boolean repeat = false;
 
-	//ArduinoComm arduino;
+	ArduinoComm arduino;
 	MidiHandler midi;
 
 	private EmbeddedMediaPlayer videoPlayer;
@@ -40,10 +40,11 @@ public class PlayerManager {
 
 	private final MediaManager mediaManager;
 
-	public PlayerManager(MediaManager mediaManager, CommandListener commandListener, MidiHandler midi) {
+	public PlayerManager(MediaManager mediaManager, CommandListener commandListener, ArduinoComm arduino,
+			MidiHandler midi) {
 
 		this.mediaManager = mediaManager;
-		//this.arduino = arduino;
+		this.arduino = arduino;
 		this.midi = midi;
 
 		frame = new JFrame();
@@ -80,7 +81,7 @@ public class PlayerManager {
 				null);
 
 		videoPlayer = videoPlayerComponent.mediaPlayer();
-		
+
 		videoPlayer.events().addMediaPlayerEventListener(new MediaPlayerEventAdapter() {
 			@Override
 			public void finished(final MediaPlayer mediaPlayer) {
@@ -109,18 +110,18 @@ public class PlayerManager {
 
 	public void playVideo(String video, boolean r) {
 		// stopVideo();
-		//initVideo();
+		// initVideo();
 		repeat = r;
 		getVideoPlayer().controls().setRepeat(repeat);
 		LOGGER.info("play video : " + video);
 		videoPlayer.media().play(video);
 		isPlaying = true;
 		videoPlayer.fullScreen().set(true);
-	}	
-	
+	}
+
 	public void stopVideo() {
 		getVideoPlayer().controls().stop();
-		//videoPlayerComponent.release();
+		// videoPlayerComponent.release();
 	}
 
 	public void play(String key) {
@@ -148,23 +149,23 @@ public class PlayerManager {
 			String videor = media.getVideo();
 			playVideo(videor, true);
 			break;
-			
-		//TODO use speak video with time frame ?
+
+		// TODO use speak video with time frame ?
 		case SPEAK:
 			speak(media.getSound());
 			break;
 		case AUDIO_VIDEO:
 			playAudioVideo(media.getSound(), media.getVideo());
 			break;
-		//case ARDUINO:
-		//	arduino.sendString(media.getVideo());
-		//	break;
+		case ARDUINO:
+			arduino.sendString(media.getVideo());
+			break;
 		case LIGHTS:
 			Lights.mod = Integer.parseInt(media.getVideo());
 			break;
 		case MIDI:
 			midi.sendMsg();
-			//Lights.mod = Integer.parseInt(media.getVideo());
+			// Lights.mod = Integer.parseInt(media.getVideo());
 			break;
 		}
 		defaultVideoPlaying = false;
@@ -184,7 +185,6 @@ public class PlayerManager {
 	public void speak(String audio) {
 		speakAudio(audio);
 	}
-
 
 	public void playGIF(String gif) {
 		stopVideo();
