@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Enumeration;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 
 import fr.duvam.OSValidator;

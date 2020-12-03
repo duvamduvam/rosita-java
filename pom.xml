@@ -81,6 +81,11 @@
 			<artifactId>rxtx</artifactId>
 			<version>2.2pre2</version>
 		</dependency>
+		<!--  <dependency>
+		    <groupId>org.rxtx</groupId>
+		    <artifactId>rxtxcomm</artifactId>
+		    <version>2.2pre2</version>
+		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/org.ardulink/ardulink-core-base -->
 		<!-- https://mvnrepository.com/artifact/args4j/args4j -->
 		<dependency>

@@ -40,7 +40,7 @@ public class Rosita {
 		
 		MediaManager mediaManager = new MediaManager();
 		listener = new CommandListener(playerManager, mediaManager);
-		//ArduinoComm arduino = new ArduinoComm(listener);
+		ArduinoComm arduino = new ArduinoComm(listener);
 		MidiHandler midi = new MidiHandler(listener);
 		playerManager = new PlayerManager(mediaManager, listener, midi);
 		//lights = new Lights(arduino);
