@@ -9,22 +9,22 @@ import org.apache.log4j.Logger;
 
 import fr.duvam.arduino.ArduinoComm;
 import fr.duvam.lights.Lights;
+import fr.duvam.listener.CommandListener;
+import fr.duvam.listener.MediaListener;
+import fr.duvam.media.PlayerManager;
 import fr.duvam.midi.MidiHandler;
-import fr.duvam.video.CommandListener;
-import fr.duvam.video.MediaListener;
-import fr.duvam.video.MediaManager;
-import fr.duvam.video.PlayerManager;
+import fr.duvam.utils.OSValidator;
 
 public class Rosita {
 
 	private static Logger LOGGER;
-	
+
 	private CommandListener listener;
 	private PlayerManager playerManager;
 	private Lights lights;
 
 	public static void main(String[] args) {
-	
+
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
@@ -37,34 +37,34 @@ public class Rosita {
 
 		initLog();
 		
+		LOGGER.info(System.getProperty("java.library.path"));
+
 		PropertiesUtil properties = new PropertiesUtil();
-		
-		MediaManager mediaManager = new MediaManager();
-		listener = new CommandListener(playerManager, mediaManager);
+
+		listener = new CommandListener();
 		ArduinoComm arduino = new ArduinoComm(listener, properties);
 		MidiHandler midi = new MidiHandler(listener);
-		playerManager = new PlayerManager(mediaManager, listener, arduino, midi);
-		//lights = new Lights(arduino);
+		playerManager = new PlayerManager(listener, arduino, midi);
 		listener.setPlayerManager(playerManager);
-
+		// lights = new Lights(arduino);
+	
 	}
 
-	
-	void initLog(){
-		//init log4j property logging
+	void initLog() {
+		// init log4j property logging
 		try {
-			String logPrefix = OSValidator.getFullOS()+"-"+InetAddress.getLocalHost().getHostName();			
+			String logPrefix = OSValidator.getFullOS() + "-" + InetAddress.getLocalHost().getHostName();
 			System.setProperty("hostName", logPrefix);
 			LOGGER = Logger.getLogger(Rosita.class);
 			LOGGER.info("<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		} catch (UnknownHostException e) {
 			LOGGER.error(e);
-		} 
+		}
 	}
-	
+
 	protected void start() {
 
-		playerManager.playDefaultVideo();
+		playerManager.videoPlayer.playDefault();
 		initListeners(listener, lights);
 	}
 
@@ -75,19 +75,17 @@ public class Rosita {
 		keyListenerThread.setDaemon(true);
 		keyListenerThread.start();
 
-
-
 		// video listener
-		MediaListener mediaListener = new MediaListener(playerManager, keyListener, lights);
-		Thread mediaListenerThread = new Thread(mediaListener);
-		mediaListenerThread.setDaemon(true);
-		mediaListenerThread.start();		
+		//MediaListener mediaListener = new MediaListener(playerManager, keyListener, lights);
+		//Thread mediaListenerThread = new Thread(mediaListener);
+		//mediaListenerThread.setDaemon(true);
+		//mediaListenerThread.start();
 
 		// light listener
-		Thread lightsListenerThread = new Thread(lights);
-		lightsListenerThread.setDaemon(true);
-		lightsListenerThread.start();	
-		
+		//Thread lightsListenerThread = new Thread(lights);
+		//lightsListenerThread.setDaemon(true);
+		//lightsListenerThread.start();
+
 	}
 
 }

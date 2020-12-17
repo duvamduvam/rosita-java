@@ -1,0 +1,1947 @@
+2020-12-03 23:35:36 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-03 23:35:36 DEBUG Properties:18 - properties loaded
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:35:36 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:35:36 INFO  ArduinoComm:69 - uni set COM4
+2020-12-03 23:36:22 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-03 23:36:22 DEBUG Properties:18 - properties loaded
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-03 23:36:22 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:36:23 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:36:23 INFO  ArduinoComm:69 - uni set COM4
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - COM1
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - COM2
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - COM3
+2020-12-03 23:36:23 INFO  ArduinoComm:80 - COM4
+2020-12-03 23:36:23 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-03 23:36:23 INFO  MidiHandler:34 - Gervill
+2020-12-03 23:36:23 INFO  MidiHandler:34 - rosita
+2020-12-03 23:36:23 INFO  MidiHandler:34 - ableton
+2020-12-03 23:36:23 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-03 23:36:23 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-03 23:36:24 INFO  PlayerManager:115 - play video : videos/rbase.mp4
+2020-12-03 23:36:30 INFO  ArduinoComm:135 -  received from arduino : N: backward
+2020-12-03 23:36:30 INFO  ArduinoComm:135 -  received from arduino : N: change backward
+2020-12-03 23:36:31 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-03 23:36:36 INFO  ArduinoComm:135 -  received from arduino : N: forward
+2020-12-03 23:36:36 INFO  ArduinoComm:135 -  received from arduino : N: change forward
+2020-12-03 23:36:36 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-03 23:36:37 INFO  ArduinoComm:135 -  received from arduino : N: right
+2020-12-03 23:36:37 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-03 23:36:38 INFO  ArduinoComm:135 -  received from arduino : N: left
+2020-12-03 23:36:38 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-03 23:36:39 INFO  ArduinoComm:135 -  received from arduino : N: effet 9 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:40 INFO  ArduinoComm:135 -  received from arduino : N: effet 8 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:42 INFO  ArduinoComm:135 -  received from arduino : N: effet 7 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:42 INFO  ArduinoComm:135 -  received from arduino : N: effet 6 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:42 INFO  ArduinoComm:135 -  received from arduino : N: effet 5 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:43 INFO  ArduinoComm:135 -  received from arduino : N: effet 4 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:44 INFO  ArduinoComm:135 -  received from arduino : N: effet 3 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:44 INFO  ArduinoComm:135 -  received from arduino : N: effet 2 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:45 INFO  ArduinoComm:135 -  received from arduino : N: effet 3 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:46 INFO  ArduinoComm:135 -  received from arduino : N: effet 4 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:46 INFO  ArduinoComm:135 -  received from arduino : N: effet 5 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:48 INFO  ArduinoComm:135 -  received from arduino : N: effet 6 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:48 INFO  ArduinoComm:135 -  received from arduino : N: effet 7 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:50 INFO  ArduinoComm:135 -  received from arduino : N: effet 8 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:50 INFO  ArduinoComm:135 -  received from arduino : N: effet 9 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:36:51 INFO  ArduinoComm:135 -  received from arduino : N: effet 10 | brightSpan 6 | tint 0  | nbColors 5 
+2020-12-03 23:39:43 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=86,keyText=V,keyChar='v',keyLocation=KEY_LOCATION_STANDARD,rawCode=86,primaryLevelUnicode=118,scancode=47,extendedKeyCode=0x56] on frame0
+2020-12-03 23:40:55 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=10,keyText=EntrÈe,keyChar=EntrÈe,keyLocation=KEY_LOCATION_STANDARD,rawCode=13,primaryLevelUnicode=13,scancode=28,extendedKeyCode=0xa] on frame0
+2020-12-03 23:40:55 INFO  PlayerManager:128 - fire : v
+2020-12-03 23:40:56 ERROR CommandListener:51 - error when removing item
+2020-12-03 23:40:56 INFO  PlayerManager:128 - fire : v
+2020-12-03 23:40:56 INFO  PlayerManager:128 - fire : 
+
+2020-12-03 23:40:56 ERROR PlayerManager:132 - no media for key 
+
+2020-12-03 23:40:56 INFO  PlayerManager:128 - fire : v
+2020-12-03 23:58:03 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-03 23:58:03 DEBUG Properties:18 - properties loaded
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:58:03 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:58:03 INFO  ArduinoComm:69 - uni set COM4
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - COM1
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - COM2
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - COM3
+2020-12-03 23:58:03 INFO  ArduinoComm:80 - COM4
+2020-12-03 23:58:03 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-03 23:58:03 INFO  MidiHandler:34 - Gervill
+2020-12-03 23:58:03 INFO  MidiHandler:34 - rosita
+2020-12-03 23:58:03 INFO  MidiHandler:34 - ableton
+2020-12-03 23:58:03 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-03 23:58:03 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-03 23:58:05 INFO  PlayerManager:115 - play video : videos/rbase.mp4
+2020-12-03 23:58:06 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=65,primaryLevelUnicode=97,scancode=16,extendedKeyCode=0x41] on frame0
+2020-12-03 23:58:06 INFO  PlayerManager:128 - fire : a
+2020-12-03 23:58:06 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=90,keyText=Z,keyChar='z',keyLocation=KEY_LOCATION_STANDARD,rawCode=90,primaryLevelUnicode=122,scancode=17,extendedKeyCode=0x5a] on frame0
+2020-12-03 23:58:06 INFO  PlayerManager:128 - fire : z
+2020-12-03 23:58:07 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=69,keyText=E,keyChar='e',keyLocation=KEY_LOCATION_STANDARD,rawCode=69,primaryLevelUnicode=101,scancode=18,extendedKeyCode=0x45] on frame0
+2020-12-03 23:58:07 INFO  PlayerManager:128 - fire : e
+2020-12-03 23:58:07 ERROR PlayerManager:132 - no media for key e
+2020-12-03 23:58:07 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=69,keyText=E,keyChar='e',keyLocation=KEY_LOCATION_STANDARD,rawCode=69,primaryLevelUnicode=101,scancode=18,extendedKeyCode=0x45] on frame0
+2020-12-03 23:58:07 INFO  PlayerManager:128 - fire : e
+2020-12-03 23:58:07 ERROR PlayerManager:132 - no media for key e
+2020-12-03 23:58:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=81,keyText=Q,keyChar='q',keyLocation=KEY_LOCATION_STANDARD,rawCode=81,primaryLevelUnicode=113,scancode=30,extendedKeyCode=0x51] on frame0
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : q
+2020-12-03 23:58:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=83,keyText=S,keyChar='s',keyLocation=KEY_LOCATION_STANDARD,rawCode=83,primaryLevelUnicode=115,scancode=31,extendedKeyCode=0x53] on frame0
+2020-12-03 23:58:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=81,keyText=Q,keyChar='q',keyLocation=KEY_LOCATION_STANDARD,rawCode=81,primaryLevelUnicode=113,scancode=30,extendedKeyCode=0x51] on frame0
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : s
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : q
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : s
+2020-12-03 23:58:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=10,keyText=EntrÈe,keyChar=EntrÈe,keyLocation=KEY_LOCATION_STANDARD,rawCode=13,primaryLevelUnicode=13,scancode=28,extendedKeyCode=0xa] on frame0
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : 
+
+2020-12-03 23:58:08 ERROR PlayerManager:132 - no media for key 
+
+2020-12-03 23:58:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=83,keyText=S,keyChar='s',keyLocation=KEY_LOCATION_STANDARD,rawCode=83,primaryLevelUnicode=115,scancode=31,extendedKeyCode=0x53] on frame0
+2020-12-03 23:58:08 INFO  PlayerManager:128 - fire : s
+2020-12-03 23:58:09 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=83,keyText=S,keyChar='s',keyLocation=KEY_LOCATION_STANDARD,rawCode=83,primaryLevelUnicode=115,scancode=31,extendedKeyCode=0x53] on frame0
+2020-12-03 23:58:09 INFO  PlayerManager:128 - fire : s
+2020-12-03 23:58:09 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=81,keyText=Q,keyChar='q',keyLocation=KEY_LOCATION_STANDARD,rawCode=81,primaryLevelUnicode=113,scancode=30,extendedKeyCode=0x51] on frame0
+2020-12-03 23:58:09 INFO  PlayerManager:128 - fire : q
+2020-12-03 23:58:09 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=65,primaryLevelUnicode=97,scancode=16,extendedKeyCode=0x41] on frame0
+2020-12-03 23:58:09 INFO  PlayerManager:128 - fire : a
+2020-12-03 23:58:09 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=90,keyText=Z,keyChar='z',keyLocation=KEY_LOCATION_STANDARD,rawCode=90,primaryLevelUnicode=122,scancode=17,extendedKeyCode=0x5a] on frame0
+2020-12-03 23:58:09 INFO  PlayerManager:128 - fire : z
+2020-12-03 23:58:10 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=82,keyText=R,keyChar='r',keyLocation=KEY_LOCATION_STANDARD,rawCode=82,primaryLevelUnicode=114,scancode=19,extendedKeyCode=0x52] on frame0
+2020-12-03 23:58:10 INFO  PlayerManager:128 - fire : r
+2020-12-03 23:58:47 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-03 23:58:47 DEBUG Properties:18 - properties loaded
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:58:47 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:58:47 INFO  ArduinoComm:69 - uni set COM4
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - COM1
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - COM2
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - COM3
+2020-12-03 23:58:47 INFO  ArduinoComm:80 - COM4
+2020-12-03 23:58:47 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-03 23:58:47 INFO  MidiHandler:34 - Gervill
+2020-12-03 23:58:47 INFO  MidiHandler:34 - rosita
+2020-12-03 23:58:47 INFO  MidiHandler:34 - ableton
+2020-12-03 23:58:47 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-03 23:58:47 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-03 23:58:48 INFO  PlayerManager:115 - play video : videos/rbase.mp4
+2020-12-03 23:58:51 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-03 23:58:51 INFO  PlayerManager:128 - fire : 1
+2020-12-03 23:58:52 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=50,keyText=2,keyChar='2',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=50,primaryLevelUnicode=233,scancode=3,extendedKeyCode=0x10000e9] on frame0
+2020-12-03 23:58:52 INFO  PlayerManager:128 - fire : 2
+2020-12-03 23:58:52 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=51,keyText=3,keyChar='3',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=51,primaryLevelUnicode=34,scancode=4,extendedKeyCode=0x98] on frame0
+2020-12-03 23:58:53 INFO  PlayerManager:128 - fire : 3
+2020-12-03 23:58:53 ERROR PlayerManager:132 - no media for key 3
+2020-12-03 23:58:53 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=52,keyText=4,keyChar='4',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=52,primaryLevelUnicode=39,scancode=5,extendedKeyCode=0xde] on frame0
+2020-12-03 23:58:53 INFO  PlayerManager:128 - fire : 4
+2020-12-03 23:58:53 ERROR PlayerManager:132 - no media for key 4
+2020-12-03 23:58:53 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=53,keyText=5,keyChar='5',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=53,primaryLevelUnicode=40,scancode=6,extendedKeyCode=0x207] on frame0
+2020-12-03 23:58:53 INFO  PlayerManager:128 - fire : 5
+2020-12-03 23:58:53 ERROR PlayerManager:132 - no media for key 5
+2020-12-03 23:58:53 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=16,keyText=Maj,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=16,primaryLevelUnicode=0,scancode=42,extendedKeyCode=0x10] on frame0
+2020-12-03 23:58:53 INFO  PlayerManager:128 - fire : ?
+2020-12-03 23:58:53 ERROR PlayerManager:132 - no media for key ?
+2020-12-03 23:59:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-03 23:59:08 INFO  PlayerManager:128 - fire : 1
+2020-12-03 23:59:08 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=16,keyText=Maj,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=16,primaryLevelUnicode=0,scancode=42,extendedKeyCode=0x10] on frame0
+2020-12-03 23:59:08 INFO  PlayerManager:128 - fire : ?
+2020-12-03 23:59:08 ERROR PlayerManager:132 - no media for key ?
+2020-12-03 23:59:12 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-03 23:59:12 INFO  PlayerManager:128 - fire : 1
+2020-12-03 23:59:12 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=16,keyText=Maj,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=16,primaryLevelUnicode=0,scancode=42,extendedKeyCode=0x10] on frame0
+2020-12-03 23:59:12 INFO  PlayerManager:128 - fire : ?
+2020-12-03 23:59:12 ERROR PlayerManager:132 - no media for key ?
+2020-12-03 23:59:22 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-03 23:59:22 DEBUG Properties:18 - properties loaded
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-03 23:59:22 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-03 23:59:22 INFO  ArduinoComm:69 - uni set COM4
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - COM1
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - COM2
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - COM3
+2020-12-03 23:59:22 INFO  ArduinoComm:80 - COM4
+2020-12-03 23:59:22 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-03 23:59:22 INFO  MidiHandler:34 - Gervill
+2020-12-03 23:59:22 INFO  MidiHandler:34 - rosita
+2020-12-03 23:59:22 INFO  MidiHandler:34 - ableton
+2020-12-03 23:59:22 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-03 23:59:22 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-03 23:59:24 INFO  PlayerManager:115 - play video : videos/rbase.mp4
+2020-12-03 23:59:26 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-03 23:59:26 INFO  PlayerManager:128 - fire : 1
+2020-12-03 23:59:26 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=50,keyText=2,keyChar='2',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=50,primaryLevelUnicode=233,scancode=3,extendedKeyCode=0x10000e9] on frame0
+2020-12-03 23:59:27 INFO  PlayerManager:128 - fire : 2
+2020-12-03 23:59:27 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=51,keyText=3,keyChar='3',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=51,primaryLevelUnicode=34,scancode=4,extendedKeyCode=0x98] on frame0
+2020-12-03 23:59:27 INFO  PlayerManager:128 - fire : 3
+2020-12-03 23:59:27 ERROR PlayerManager:132 - no media for key 3
+2020-12-03 23:59:27 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-03 23:59:27 INFO  PlayerManager:128 - fire : 1
+2020-12-03 23:59:28 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=16,keyText=Maj,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=16,primaryLevelUnicode=0,scancode=42,extendedKeyCode=0x10] on frame0
+2020-12-03 23:59:28 INFO  PlayerManager:128 - fire : ?
+2020-12-03 23:59:28 ERROR PlayerManager:132 - no media for key ?
+2020-12-04 00:09:40 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-04 00:09:40 DEBUG Properties:18 - properties loaded
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-04 00:09:40 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-04 00:09:40 INFO  ArduinoComm:69 - uni set COM4
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - COM1
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - COM2
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - COM3
+2020-12-04 00:09:40 INFO  ArduinoComm:80 - COM4
+2020-12-04 00:09:40 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-04 00:09:40 INFO  MidiHandler:34 - Gervill
+2020-12-04 00:09:40 INFO  MidiHandler:34 - rosita
+2020-12-04 00:09:40 INFO  MidiHandler:34 - ableton
+2020-12-04 00:09:40 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-04 00:09:40 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-04 00:09:41 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-04 00:09:44 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-04 00:09:44 INFO  PlayerManager:129 - fire : 1
+2020-12-04 00:09:44 INFO  ArduinoComm:145 -  send 1 to arduino
+2020-12-04 00:09:44 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=50,keyText=2,keyChar='2',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=50,primaryLevelUnicode=233,scancode=3,extendedKeyCode=0x10000e9] on frame0
+2020-12-04 00:09:45 INFO  PlayerManager:129 - fire : 2
+2020-12-04 00:09:45 INFO  ArduinoComm:145 -  send 2 to arduino
+2020-12-04 00:09:45 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=50,keyText=2,keyChar='2',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=50,primaryLevelUnicode=233,scancode=3,extendedKeyCode=0x10000e9] on frame0
+2020-12-04 00:09:45 INFO  PlayerManager:129 - fire : 2
+2020-12-04 00:09:45 INFO  ArduinoComm:145 -  send 2 to arduino
+2020-12-04 00:09:46 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=51,keyText=3,keyChar='3',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=51,primaryLevelUnicode=34,scancode=4,extendedKeyCode=0x98] on frame0
+2020-12-04 00:09:46 INFO  PlayerManager:129 - fire : 3
+2020-12-04 00:09:46 ERROR PlayerManager:133 - no media for key 3
+2020-12-04 00:09:46 INFO  ArduinoComm:135 -  received from arduino : N: You typed:  
+2020-12-04 00:09:47 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=49,keyText=1,keyChar='1',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=38,scancode=2,extendedKeyCode=0x96] on frame0
+2020-12-04 00:09:47 INFO  PlayerManager:129 - fire : 1
+2020-12-04 00:09:47 INFO  ArduinoComm:145 -  send 1 to arduino
+2020-12-04 00:09:47 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=50,keyText=2,keyChar='2',modifiers=Maj,extModifiers=Maj,keyLocation=KEY_LOCATION_STANDARD,rawCode=50,primaryLevelUnicode=233,scancode=3,extendedKeyCode=0x10000e9] on frame0
+2020-12-04 00:09:47 INFO  PlayerManager:129 - fire : 2
+2020-12-04 00:09:47 INFO  ArduinoComm:145 -  send 2 to arduino
+2020-12-04 00:09:47 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=16,keyText=Maj,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=16,primaryLevelUnicode=0,scancode=42,extendedKeyCode=0x10] on frame0
+2020-12-04 00:09:47 INFO  PlayerManager:129 - fire : ?
+2020-12-04 00:09:47 ERROR PlayerManager:133 - no media for key ?
+2020-12-04 00:09:48 INFO  ArduinoComm:135 -  received from arduino : N: You typed:  
+2020-12-04 00:09:57 INFO  ArduinoComm:135 -  received from arduino : N: forward
+2020-12-04 00:09:57 INFO  ArduinoComm:135 -  received from arduino : N: change forward
+2020-12-04 00:09:57 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 00:09:58 INFO  ArduinoComm:135 -  received from arduino : N: backward
+2020-12-04 00:09:58 INFO  ArduinoComm:135 -  received from arduino : N: change backward
+2020-12-04 00:09:58 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 00:09:59 INFO  ArduinoComm:135 -  received from arduino : N: left
+2020-12-04 00:09:59 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 00:10:00 INFO  ArduinoComm:135 -  received from arduino : N: right
+2020-12-04 00:10:00 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 00:10:01 INFO  ArduinoComm:135 -  received from arduino : N: forward
+2020-12-04 00:10:01 INFO  ArduinoComm:135 -  received from arduino : N: change forward
+2020-12-04 00:10:01 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 00:10:02 INFO  ArduinoComm:135 -  received from arduino : N: right
+2020-12-04 00:10:02 INFO  ArduinoComm:135 -  received from arduino : N: stop
+2020-12-04 10:58:22 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-04 10:58:22 DEBUG Properties:18 - properties loaded
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 100, type = VIDEOR, video = videos/salarie1.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 101, type = VIDEOR, video = videos/salarie2.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 102, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 103, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = t, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = y, type = VIDEOR, video = videos/salarie3.mp4, sound = *
+2020-12-04 10:58:22 INFO  RositaMedia:19 - loading media : key = u, type = VIDEOR, video = videos/salarie5.mp4, sound = *
+2020-12-04 10:58:22 INFO  ArduinoComm:69 - uni set COM4
+2020-12-04 10:58:22 INFO  ArduinoComm:91 - Could not find COM port
+2020-12-04 10:58:22 ERROR ArduinoComm:109 - can't reach arduino
+2020-12-04 10:58:22 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-04 10:58:22 INFO  MidiHandler:34 - Gervill
+2020-12-04 10:58:22 INFO  MidiHandler:34 - rosita
+2020-12-04 10:58:22 INFO  MidiHandler:34 - ableton
+2020-12-04 10:58:22 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-04 10:58:22 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-04 10:58:24 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-04 10:58:55 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=0,keyText=Inconnu keyCode: 0x0,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_STANDARD,rawCode=255,primaryLevelUnicode=0,scancode=114,extendedKeyCode=0x0] on frame0
+2020-12-04 10:58:55 INFO  PlayerManager:129 - fire : ?
+2020-12-04 10:58:55 ERROR PlayerManager:133 - no media for key ?
+2020-12-04 11:00:29 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=0,keyText=Inconnu keyCode: 0x0,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_STANDARD,rawCode=255,primaryLevelUnicode=0,scancode=113,extendedKeyCode=0x0] on frame0
+2020-12-04 11:00:29 INFO  PlayerManager:129 - fire : ?
+2020-12-04 11:00:29 ERROR PlayerManager:133 - no media for key ?
+2020-12-04 11:00:35 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=0,keyText=Inconnu keyCode: 0x0,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_STANDARD,rawCode=255,primaryLevelUnicode=0,scancode=114,extendedKeyCode=0x0] on frame0
+2020-12-04 11:00:35 INFO  PlayerManager:129 - fire : ?
+2020-12-04 11:00:35 ERROR PlayerManager:133 - no media for key ?
+2020-12-13 21:52:27 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 21:52:27 DEBUG Properties:18 - properties loaded
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = $D37, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = $D31, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 21:52:27 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 21:52:27 INFO  ArduinoComm:69 - uni set COM6
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM1
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM2
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM3
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM4
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM5
+2020-12-13 21:52:27 INFO  ArduinoComm:80 - COM6
+2020-12-13 21:52:27 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 21:52:27 INFO  MidiHandler:34 - Gervill
+2020-12-13 21:52:27 INFO  MidiHandler:34 - rosita
+2020-12-13 21:52:27 INFO  MidiHandler:34 - ableton
+2020-12-13 21:52:27 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 21:52:27 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 21:52:28 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:03:17 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:03:17 DEBUG Properties:18 - properties loaded
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = $D37, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = $D31, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:03:17 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:03:17 INFO  ArduinoComm:69 - uni set COM6
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM5
+2020-12-13 22:03:17 INFO  ArduinoComm:80 - COM6
+2020-12-13 22:03:17 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:03:17 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:03:17 INFO  MidiHandler:34 - rosita
+2020-12-13 22:03:17 INFO  MidiHandler:34 - ableton
+2020-12-13 22:03:17 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:03:17 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:03:18 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:06:12 INFO  KeyboardListener:32 - java.awt.event.KeyEvent[KEY_RELEASED,keyCode=17,keyText=Ctrl,keyChar=Non dÈfini keyChar,keyLocation=KEY_LOCATION_LEFT,rawCode=17,primaryLevelUnicode=0,scancode=29,extendedKeyCode=0x11] on frame0
+2020-12-13 22:06:12 INFO  PlayerManager:129 - fire : ?
+2020-12-13 22:06:12 ERROR PlayerManager:133 - no media for key ?
+2020-12-13 22:14:50 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:14:50 DEBUG Properties:18 - properties loaded
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = $D3, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = $D4, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:14:50 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:14:50 INFO  ArduinoComm:69 - uni set COM6
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM5
+2020-12-13 22:14:50 INFO  ArduinoComm:80 - COM6
+2020-12-13 22:14:50 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:14:50 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:14:50 INFO  MidiHandler:34 - rosita
+2020-12-13 22:14:50 INFO  MidiHandler:34 - ableton
+2020-12-13 22:14:50 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:14:50 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:14:51 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:16:17 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:16:17 DEBUG Properties:18 - properties loaded
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = $D3, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = $D4, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:16:17 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:16:17 INFO  ArduinoComm:69 - uni set COM6
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM5
+2020-12-13 22:16:17 INFO  ArduinoComm:80 - COM6
+2020-12-13 22:16:17 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:16:17 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:16:17 INFO  MidiHandler:34 - rosita
+2020-12-13 22:16:17 INFO  MidiHandler:34 - ableton
+2020-12-13 22:16:17 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:16:17 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:16:18 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:19:41 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:19:41 DEBUG Properties:18 - properties loaded
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = $D3, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = $D4, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:19:41 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:19:41 INFO  ArduinoComm:69 - uni set COM4
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:19:41 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:19:41 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:19:41 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:19:41 INFO  MidiHandler:34 - rosita
+2020-12-13 22:19:41 INFO  MidiHandler:34 - ableton
+2020-12-13 22:19:41 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:19:41 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:19:42 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:19:42 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‡ 
+2020-12-13 22:19:42 INFO  PlayerManager:129 - fire : N: You typed: ‡ 
+2020-12-13 22:19:42 ERROR PlayerManager:133 - no media for key N: You typed: ‡ 
+2020-12-13 22:19:43 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:43 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:43 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:44 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:44 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:44 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:45 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:45 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:45 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:46 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:46 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:46 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:47 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:47 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:47 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:48 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:48 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:48 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:49 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:49 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:49 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:50 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:50 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:50 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:51 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:51 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:51 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:52 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:52 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:52 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:53 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:54 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:54 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:55 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:55 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:55 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:56 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:56 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:56 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:57 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:57 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:57 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:58 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:58 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:58 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:19:59 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:19:59 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:19:59 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:00 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:00 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:00 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:01 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:01 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:01 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:02 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:02 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:02 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:03 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:03 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:03 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:04 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:04 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:04 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:05 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:05 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:05 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:06 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:06 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:06 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:07 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:07 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:07 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:08 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:08 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D3 
+2020-12-13 22:20:08 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:08 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:08 INFO  PlayerManager:129 - fire : N: radio: $D3 
+2020-12-13 22:20:08 ERROR PlayerManager:133 - no media for key N: radio: $D3 
+2020-12-13 22:20:08 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:08 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:09 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:20:09 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ê 
+2020-12-13 22:20:09 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:09 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:09 INFO  PlayerManager:129 - fire : N: You typed: Ê 
+2020-12-13 22:20:09 ERROR PlayerManager:133 - no media for key N: You typed: Ê 
+2020-12-13 22:20:09 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:09 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:10 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D4 
+2020-12-13 22:20:10 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:20:10 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ê 
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: radio: $D4 
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: radio: $D4 
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: You typed: Ê 
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: You typed: Ê 
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: radio: $D4 
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: radio: $D4 
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:10 INFO  PlayerManager:129 - fire : N: radio: $D4 
+2020-12-13 22:20:10 ERROR PlayerManager:133 - no media for key N: radio: $D4 
+2020-12-13 22:20:11 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D3 
+2020-12-13 22:20:11 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:20:11 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ï 
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: radio: $D3 
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: radio: $D3 
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: You typed: Ï 
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: You typed: Ï 
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: radio: $D3 
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: radio: $D3 
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:11 INFO  PlayerManager:129 - fire : N: radio: $D3 
+2020-12-13 22:20:11 ERROR PlayerManager:133 - no media for key N: radio: $D3 
+2020-12-13 22:20:12 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D4 
+2020-12-13 22:20:12 INFO  PlayerManager:129 - fire : N: radio: $D4 
+2020-12-13 22:20:12 ERROR PlayerManager:133 - no media for key N: radio: $D4 
+2020-12-13 22:20:12 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:20:12 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ó 
+2020-12-13 22:20:12 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:12 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:12 INFO  PlayerManager:129 - fire : N: You typed: Ó 
+2020-12-13 22:20:12 ERROR PlayerManager:133 - no media for key N: You typed: Ó 
+2020-12-13 22:20:12 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:20:12 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:20:13 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ó 
+2020-12-13 22:20:13 INFO  PlayerManager:129 - fire : N: You typed: Ó 
+2020-12-13 22:20:13 ERROR PlayerManager:133 - no media for key N: You typed: Ó 
+2020-12-13 22:20:14 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:14 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:14 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:15 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:15 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:15 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:16 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:16 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:16 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:17 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:17 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:17 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:18 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:18 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:18 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:19 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:19 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:19 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:20 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:20 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:20 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:21 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:21 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:21 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:22 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:22 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:22 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:23 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:23 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:23 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:24 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:25 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:25 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:25 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:26 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:26 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:26 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:27 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:27 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:28 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:28 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:28 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:29 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:29 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:29 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:30 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:30 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:30 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:31 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:31 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:31 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:32 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:32 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:32 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:33 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:33 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:33 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:34 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:34 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:34 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:35 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:35 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:35 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:36 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:36 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:36 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:37 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:37 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:37 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:38 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:38 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:38 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:39 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:39 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:39 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:40 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:40 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:40 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:41 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:41 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:41 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:42 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:42 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:42 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:43 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:43 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:43 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:44 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:44 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:44 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:45 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:45 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:45 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:46 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:46 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:46 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:47 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:47 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:47 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:48 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:48 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:48 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:49 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:49 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:49 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:50 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:50 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:50 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:51 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:51 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:51 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:52 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:52 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:52 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:53 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:53 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:53 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:20:57 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:20:57 DEBUG Properties:18 - properties loaded
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = $D3, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = $D4, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:20:57 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:20:57 INFO  ArduinoComm:69 - uni set COM4
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:20:57 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:20:57 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:20:57 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:20:57 INFO  MidiHandler:34 - rosita
+2020-12-13 22:20:57 INFO  MidiHandler:34 - ableton
+2020-12-13 22:20:57 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:20:57 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:20:58 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:20:58 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‚ 
+2020-12-13 22:20:58 INFO  PlayerManager:129 - fire : N: You typed: ‚ 
+2020-12-13 22:20:58 ERROR PlayerManager:133 - no media for key N: You typed: ‚ 
+2020-12-13 22:20:59 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:20:59 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:20:59 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:00 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:00 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:00 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:01 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:01 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:01 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:02 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:02 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:02 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:03 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:03 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:03 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:04 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:04 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:04 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:05 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:05 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:05 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:06 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:06 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:06 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:21:07 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ﬁ 
+2020-12-13 22:21:07 INFO  PlayerManager:129 - fire : N: You typed: ﬁ 
+2020-12-13 22:21:07 ERROR PlayerManager:133 - no media for key N: You typed: ﬁ 
+2020-12-13 22:33:07 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:33:07 DEBUG Properties:18 - properties loaded
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:33:07 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:33:07 INFO  ArduinoComm:69 - uni set COM4
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:33:07 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:33:07 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:33:07 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:33:07 INFO  MidiHandler:34 - rosita
+2020-12-13 22:33:07 INFO  MidiHandler:34 - ableton
+2020-12-13 22:33:07 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:33:07 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:33:08 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:33:08 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ë 
+2020-12-13 22:33:08 INFO  PlayerManager:129 - fire : N: You typed: Ë 
+2020-12-13 22:33:08 ERROR PlayerManager:133 - no media for key N: You typed: Ë 
+2020-12-13 22:33:09 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:10 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:10 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:10 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:11 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:11 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:12 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:12 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:12 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:13 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:13 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:13 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:14 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:14 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:14 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:15 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:15 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:15 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:16 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:16 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:16 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:17 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:17 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:17 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:18 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:18 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:18 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:19 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:19 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:19 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:20 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:20 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:20 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:21 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:21 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:21 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:22 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:22 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:22 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:23 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:23 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:23 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:24 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:24 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:24 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:25 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:25 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:25 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:26 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:26 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:26 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:27 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:27 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:27 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:28 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:28 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:28 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:29 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:29 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:29 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:30 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:30 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:30 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:31 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:31 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:31 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:32 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:32 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:32 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:33 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:33 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:33 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:34 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:34 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:34 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:35 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:35 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:35 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:36 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:36 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:36 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:37 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:37 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:37 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:38 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:38 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:38 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:39 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:39 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:39 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:40 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:40 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:40 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:41 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:41 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:41 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:42 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:42 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D11 
+2020-12-13 22:33:43 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:43 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:43 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:43 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:43 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:43 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:43 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:33:43 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ï 
+2020-12-13 22:33:44 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:44 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:44 INFO  PlayerManager:129 - fire : N: You typed: Ï 
+2020-12-13 22:33:44 ERROR PlayerManager:133 - no media for key N: You typed: Ï 
+2020-12-13 22:33:44 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:44 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:45 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ï 
+2020-12-13 22:33:45 INFO  PlayerManager:129 - fire : N: You typed: Ï 
+2020-12-13 22:33:45 ERROR PlayerManager:133 - no media for key N: You typed: Ï 
+2020-12-13 22:33:46 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:46 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D12 
+2020-12-13 22:33:46 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:46 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:46 INFO  PlayerManager:129 - fire : N: radio: $D12 
+2020-12-13 22:33:46 ERROR PlayerManager:133 - no media for key N: radio: $D12 
+2020-12-13 22:33:46 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:46 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:47 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:33:47 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:47 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:47 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ï 
+2020-12-13 22:33:47 INFO  PlayerManager:129 - fire : N: You typed: Ï 
+2020-12-13 22:33:47 ERROR PlayerManager:133 - no media for key N: You typed: Ï 
+2020-12-13 22:33:48 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D11 
+2020-12-13 22:33:48 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:33:48 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ï 
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: You typed: Ï 
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: You typed: Ï 
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:48 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:48 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:49 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ù 
+2020-12-13 22:33:49 INFO  PlayerManager:129 - fire : N: You typed: Ù 
+2020-12-13 22:33:49 ERROR PlayerManager:133 - no media for key N: You typed: Ù 
+2020-12-13 22:33:50 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:50 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:50 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:51 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:51 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:51 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:52 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D11 
+2020-12-13 22:33:52 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:52 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:52 ERROR CommandListener:51 - error when removing item
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:33:52 INFO  PlayerManager:129 - fire : N: radio: $D11 
+2020-12-13 22:33:52 ERROR PlayerManager:133 - no media for key N: radio: $D11 
+2020-12-13 22:33:53 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ù 
+2020-12-13 22:33:53 INFO  PlayerManager:129 - fire : N: You typed: Ù 
+2020-12-13 22:33:53 ERROR PlayerManager:133 - no media for key N: You typed: Ù 
+2020-12-13 22:33:54 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:54 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:54 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:55 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:55 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:55 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:56 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:56 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:56 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:57 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:57 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:57 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:58 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:58 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:58 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:33:59 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:33:59 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:33:59 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:00 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:00 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:00 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:01 INFO  ArduinoComm:135 -  received from arduino : N: radio: $D12 
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: radio: $D12 
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: radio: $D12 
+2020-12-13 22:34:01 INFO  ArduinoComm:135 -  received from arduino : N: input:  
+2020-12-13 22:34:01 ERROR CommandListener:51 - error when removing item
+2020-12-13 22:34:01 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: radio: $D12 
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: radio: $D12 
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: radio: $D12 
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: radio: $D12 
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: input:  
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: input:  
+2020-12-13 22:34:01 INFO  PlayerManager:129 - fire : N: radio: $D12 
+2020-12-13 22:34:01 ERROR PlayerManager:133 - no media for key N: radio: $D12 
+2020-12-13 22:34:02 INFO  ArduinoComm:135 -  received from arduino : N: You typed: Ù 
+2020-12-13 22:34:02 INFO  PlayerManager:129 - fire : N: You typed: Ù 
+2020-12-13 22:34:02 ERROR PlayerManager:133 - no media for key N: You typed: Ù 
+2020-12-13 22:34:03 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:03 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:03 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:04 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:04 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:04 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:05 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:05 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:05 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:06 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:06 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:06 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:07 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:07 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:07 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:08 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:08 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:08 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:09 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:09 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:09 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:10 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:10 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:10 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:11 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:11 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:11 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:12 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:13 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:13 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:13 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:14 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:14 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:14 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:15 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:15 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:16 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:16 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:16 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:17 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:17 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:17 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:18 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:18 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:18 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:19 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:19 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:19 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:20 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:20 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:20 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:21 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:21 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:21 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:22 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:22 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:22 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:23 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:23 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:23 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:24 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:24 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:24 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:25 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:25 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:25 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:26 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:26 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:26 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:27 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:27 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:27 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:28 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:28 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:28 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:29 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:29 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:29 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:30 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:30 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:30 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:31 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:31 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:31 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:32 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:32 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:32 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:33 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:33 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:33 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:34 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:34 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:34 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:35 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:35 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:35 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:36 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:36 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:36 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:34:37 INFO  ArduinoComm:135 -  received from arduino : N: You typed: ‰ 
+2020-12-13 22:34:37 INFO  PlayerManager:129 - fire : N: You typed: ‰ 
+2020-12-13 22:34:37 ERROR PlayerManager:133 - no media for key N: You typed: ‰ 
+2020-12-13 22:46:26 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:46:26 DEBUG Properties:18 - properties loaded
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:46:26 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:46:26 INFO  ArduinoComm:69 - uni set COM4
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:46:26 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:46:26 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:46:26 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:46:26 INFO  MidiHandler:34 - rosita
+2020-12-13 22:46:26 INFO  MidiHandler:34 - ableton
+2020-12-13 22:46:26 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:46:26 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:46:27 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:46:56 INFO  Rosita:59 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-13 22:46:56 DEBUG Properties:18 - properties loaded
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vid√©os/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = k, type = LIGHTS, video = 0, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = l, type = LIGHTS, video = 1, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = m, type = LIGHTS, video = 2, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = c, type = LIGHTS, video = 3, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = v, type = LIGHTS, video = 4, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-13 22:46:56 INFO  RositaMedia:19 - loading media : key = D/, type = MIDI, video = 60, sound = *+
+2020-12-13 22:46:56 INFO  ArduinoComm:69 - uni set COM4
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - /dev/ttyACM0
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - /dev/ttyACM1
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - /dev/ttyACM2
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - /dev/ttyAMA0
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - /dev/ttyUSB0
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - COM1
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - COM2
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - COM3
+2020-12-13 22:46:56 INFO  ArduinoComm:80 - COM4
+2020-12-13 22:46:56 INFO  ArduinoComm:47 - Arduino link Started
+2020-12-13 22:46:56 INFO  MidiHandler:34 - Gervill
+2020-12-13 22:46:56 INFO  MidiHandler:34 - rosita
+2020-12-13 22:46:56 INFO  MidiHandler:34 - ableton
+2020-12-13 22:46:56 INFO  MidiHandler:41 - number of transmitter :0
+2020-12-13 22:46:56 INFO  MidiHandler:60 - ableton Was Opened
+2020-12-13 22:46:57 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:13 INFO  ArduinoComm:135 -  received from arduino : HRIGHT
+2020-12-13 22:47:13 INFO  PlayerManager:129 - fire : HRIGHT
+2020-12-13 22:47:13 ERROR PlayerManager:133 - no media for key HRIGHT
+2020-12-13 22:47:14 INFO  ArduinoComm:135 -  received from arduino : N 45
+2020-12-13 22:47:14 INFO  PlayerManager:129 - fire : N 45
+2020-12-13 22:47:14 ERROR PlayerManager:133 - no media for key N 45
+2020-12-13 22:47:19 INFO  ArduinoComm:135 -  received from arduino : N 35
+2020-12-13 22:47:19 INFO  PlayerManager:129 - fire : N 35
+2020-12-13 22:47:19 ERROR PlayerManager:133 - no media for key N 35
+2020-12-13 22:47:22 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:47:22 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:47:22 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:47:23 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:24 INFO  ArduinoComm:135 -  received from arduino : $B12
+2020-12-13 22:47:24 INFO  PlayerManager:129 - fire : $B12
+2020-12-13 22:47:24 INFO  PlayerManager:116 - play video : videos/bored.mp4
+2020-12-13 22:47:27 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:47:29 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:47:33 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:35 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:36 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:47:36 ERROR CommandListener:51 - error when removing item
+2020-12-13 22:47:36 INFO  PlayerManager:129 - fire : $B12
+2020-12-13 22:47:36 INFO  PlayerManager:116 - play video : videos/bored.mp4
+2020-12-13 22:47:46 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:47 INFO  ArduinoComm:135 -  received from arduino : $B12
+2020-12-13 22:47:47 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:48 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:47:48 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:47:49 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:47:49 INFO  PlayerManager:129 - fire : $B12
+2020-12-13 22:47:49 INFO  PlayerManager:116 - play video : videos/bored.mp4
+2020-12-13 22:47:59 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:01 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:06 INFO  ArduinoComm:135 -  received from arduino : $B12
+2020-12-13 22:48:06 INFO  PlayerManager:129 - fire : $B12
+2020-12-13 22:48:06 INFO  PlayerManager:116 - play video : videos/bored.mp4
+2020-12-13 22:48:16 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:17 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:19 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:19 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:19 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:20 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:21 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:21 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:21 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:22 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:22 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:22 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:22 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:23 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:24 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:24 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:24 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:25 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:25 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:25 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:25 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:26 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:27 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:27 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:27 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:28 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:28 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:28 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:28 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:29 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:29 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:31 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:31 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:31 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:32 INFO  PlayerManager:116 - play video : videos/rbase.mp4
+2020-12-13 22:48:32 INFO  ArduinoComm:135 -  received from arduino : $B11
+2020-12-13 22:48:33 INFO  PlayerManager:129 - fire : $B11
+2020-12-13 22:48:33 INFO  PlayerManager:116 - play video : videos/angry-speak.mp4
+2020-12-13 22:48:33 INFO  PlayerManager:116 - play video : videos/rbase.mp4

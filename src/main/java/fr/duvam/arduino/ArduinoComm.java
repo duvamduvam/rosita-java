@@ -4,13 +4,12 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Enumeration;
-import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-import fr.duvam.OSValidator;
 import fr.duvam.PropertiesUtil;
-import fr.duvam.video.CommandListener;
+import fr.duvam.listener.CommandListener;
+import fr.duvam.utils.OSValidator;
 import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
@@ -38,7 +37,7 @@ public class ArduinoComm implements SerialPortEventListener {
 	/** Milliseconds to block while waiting for port open */
 	private static final int TIME_OUT = 2000;
 	/** Default bits per second for COM port. */
-	private static final int DATA_RATE = 9600;
+	private static final int DATA_RATE = 115200;
 
 	public ArduinoComm(CommandListener commandListener, PropertiesUtil properties) {
 		this.commandListener = commandListener;
@@ -131,7 +130,7 @@ public class ArduinoComm implements SerialPortEventListener {
 				serialPort.disableReceiveTimeout();
 				serialPort.enableReceiveThreshold(1);
 				// TODO
-				// commandListener.addKey(inputLine);
+				commandListener.addKey(inputLine);
 				LOGGER.info(" received from arduino : " + inputLine);
 			} catch (Exception e) {
 				LOGGER.error(e);

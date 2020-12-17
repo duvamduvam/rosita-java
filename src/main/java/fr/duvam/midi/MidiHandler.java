@@ -13,7 +13,7 @@ import javax.sound.midi.Transmitter;
 
 import org.apache.log4j.Logger;
 
-import fr.duvam.video.CommandListener;
+import fr.duvam.listener.CommandListener;
 
 public class MidiHandler {
 
