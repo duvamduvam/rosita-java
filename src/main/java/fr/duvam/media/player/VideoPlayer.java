@@ -42,7 +42,9 @@ public class VideoPlayer {
 		videoPlayer.events().addMediaPlayerEventListener(new MediaPlayerEventAdapter() {
 			@Override
 			public void finished(final MediaPlayer mediaPlayer) {
-				playDefault();
+				if (!repeat) {
+					isPlaying = false;
+				}
 			}
 		});
 

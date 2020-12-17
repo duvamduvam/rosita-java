@@ -76,10 +76,10 @@ public class Rosita {
 		keyListenerThread.start();
 
 		// video listener
-		//MediaListener mediaListener = new MediaListener(playerManager, keyListener, lights);
-		//Thread mediaListenerThread = new Thread(mediaListener);
-		//mediaListenerThread.setDaemon(true);
-		//mediaListenerThread.start();
+		MediaListener mediaListener = new MediaListener(playerManager, keyListener, lights);
+		Thread mediaListenerThread = new Thread(mediaListener);
+		mediaListenerThread.setDaemon(true);
+		mediaListenerThread.start();
 
 		// light listener
 		//Thread lightsListenerThread = new Thread(lights);
