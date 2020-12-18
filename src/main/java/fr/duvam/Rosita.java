@@ -12,14 +12,15 @@ import fr.duvam.lights.Lights;
 import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
-import fr.duvam.midi.MidiHandler;
+import fr.duvam.midi.MidiListener;
+import fr.duvam.midi.MidiPlayer;
 import fr.duvam.utils.OSValidator;
 
 public class Rosita {
 
 	private static Logger LOGGER;
 
-	private CommandListener listener;
+	private CommandListener commands;
 	private PlayerManager playerManager;
 	private Lights lights;
 
@@ -36,18 +37,23 @@ public class Rosita {
 	public Rosita() {
 
 		initLog();
-		
+
 		LOGGER.info(System.getProperty("java.library.path"));
 
 		PropertiesUtil properties = new PropertiesUtil();
 
-		listener = new CommandListener();
-		ArduinoComm arduino = new ArduinoComm(listener, properties);
-		MidiHandler midi = new MidiHandler(listener);
-		playerManager = new PlayerManager(listener, arduino, midi);
-		listener.setPlayerManager(playerManager);
+		commands = new CommandListener();
+		ArduinoComm arduino = new ArduinoComm(commands, properties);
+		// midi listener and player !!!! leave the lister before the player therwise the
+		// player don't work
+		// TODO could be moved inside playerManager
+		new MidiListener(commands, properties);
+		MidiPlayer midiPlayer = new MidiPlayer(properties);
+
+		playerManager = new PlayerManager(commands, arduino, midiPlayer);
+		commands.setPlayerManager(playerManager);
 		// lights = new Lights(arduino);
-	
+
 	}
 
 	void initLog() {
@@ -65,7 +71,7 @@ public class Rosita {
 	protected void start() {
 
 		playerManager.videoPlayer.playDefault();
-		initListeners(listener, lights);
+		initListeners(commands, lights);
 	}
 
 	private void initListeners(CommandListener keyListener, Lights lights) {
@@ -76,15 +82,15 @@ public class Rosita {
 		keyListenerThread.start();
 
 		// video listener
-		MediaListener mediaListener = new MediaListener(playerManager, keyListener, lights);
+		MediaListener mediaListener = new MediaListener(playerManager);
 		Thread mediaListenerThread = new Thread(mediaListener);
 		mediaListenerThread.setDaemon(true);
 		mediaListenerThread.start();
 
 		// light listener
-		//Thread lightsListenerThread = new Thread(lights);
-		//lightsListenerThread.setDaemon(true);
-		//lightsListenerThread.start();
+		// Thread lightsListenerThread = new Thread(lights);
+		// lightsListenerThread.setDaemon(true);
+		// lightsListenerThread.start();
 
 	}
 

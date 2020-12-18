@@ -51,5 +51,9 @@ b|ARDUINO|movebackard|*
 l|ARDUINO|moveleft|*
 r|ARDUINO|moveright|*
 s|ARDUINO|movestop|*
-D/|MIDI|60|*+
+y|MIDI|60|*
+19|MIDI|60|*
+20|MIDI|61|*
+23|MIDI|62|*
+24|MIDI|63|*
 

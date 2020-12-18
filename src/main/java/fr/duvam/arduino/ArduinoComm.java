@@ -22,8 +22,7 @@ public class ArduinoComm implements SerialPortEventListener {
 
 	private static final Logger LOGGER = Logger.getLogger(ArduinoComm.class);
 
-	private static final String PORT_NAMES[] = { 
-			"/dev/ttyACM0", "/dev/ttyACM1", "/dev/ttyACM2", // Raspberry Pi
+	private static final String PORT_NAMES[] = { "/dev/ttyACM0", "/dev/ttyACM1", "/dev/ttyACM2", // Raspberry Pi
 			"/dev/ttyAMA0", "/dev/ttyUSB0", // Linux
 			"COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM11", "COM18", "COM19", "COM24",// Windows
 	};
@@ -43,7 +42,6 @@ public class ArduinoComm implements SerialPortEventListener {
 		this.commandListener = commandListener;
 		this.properties = properties;
 		initialize();
-		LOGGER.info("Arduino link Started");
 	}
 
 	public void initialize() {
@@ -52,23 +50,21 @@ public class ArduinoComm implements SerialPortEventListener {
 		// https://www.raspberrypi.org/phpBB3/viewtopic.php?f=81&t=32186
 
 		String os = OSValidator.getFullOS();
-		// raspian
+
+		String port ="";
 		if (os.contains("arm")) {
-			String port = properties.get("port.pi");
-			LOGGER.info("arm set " + port);
-			System.setProperty("gnu.io.rxtx.SerialPorts", port);
-		}
-		// debian
-		else if (os.contains("linux")) {
-			String port = properties.get("port.linux");
-			LOGGER.info("uni set " + port);
-			System.setProperty("gnu.io.rxtx.SerialPorts", port);
+			port = properties.get("port.pi");
+			LOGGER.info("raspian port " + port);
+		} else if (os.contains("linux")) {
+			port = properties.get("port.linux");
+			LOGGER.info("linux port " + port);
 		} else if (os.contains("win")) {
-			String port = properties.get("port.win");
-			LOGGER.info("uni set " + port);
-			System.setProperty("gnu.io.rxtx.SerialPorts", port);
+			port = properties.get("port.win");
+			LOGGER.info("windows port " + port);
 		}
 
+		System.setProperty("gnu.io.rxtx.SerialPorts", port);
+		
 		CommPortIdentifier portId = null;
 		Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
@@ -76,9 +72,10 @@ public class ArduinoComm implements SerialPortEventListener {
 		while (portEnum.hasMoreElements()) {
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
 			for (String portName : PORT_NAMES) {
-				LOGGER.info(portName);
+
 				if (currPortId.getName().equals(portName)) {
 					portId = currPortId;
+					LOGGER.info("open arduino on port : " + portName);
 					break;
 				}
 			}

@@ -14,9 +14,11 @@ public class CommandListener implements Runnable {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(CommandListener.class);
 
-	private List<String> keyList = new LinkedList<String>();
+	private static List<String> keyList = new LinkedList<String>();
 	PlayerManager playerManager;
 
+	private boolean checkEvent = false;
+	
 	public PlayerManager getPlayerManager() {
 		return playerManager;
 	}
@@ -26,30 +28,34 @@ public class CommandListener implements Runnable {
 	}
 
 	public void addKey(String key) {
+		while(checkEvent) {
+			// avoid ConcurrentModificationException
+		}
 		if (!keyList.contains(key)) {
 			keyList.add(key);
 		}
 	}
-	
+
 	private void removeKey(String key) {
 		keyList.remove(key);
 	}
-	
+
 	private synchronized void checkEvent() {
 		String toRemove = new String();
-		synchronized (keyList) {
-			try {
-				for (String key : keyList) {
-					playerManager.play(key);
-					toRemove = key;
-				}
-				if (!toRemove.isEmpty()) {
-					removeKey(toRemove);
-				}
-			
-			} catch (ConcurrentModificationException e) {
-				LOGGER.error("error when removing item");
+		try {
+			checkEvent = true;
+			for (String key : keyList) {
+				playerManager.play(key);
+				toRemove = key;
 			}
+			checkEvent = false;
+			if (!toRemove.isEmpty()) {
+				removeKey(toRemove);
+			}
+
+		} catch (ConcurrentModificationException e) {
+			LOGGER.error("error when removing item");
+			//checkEvent();
 		}
 	}
 

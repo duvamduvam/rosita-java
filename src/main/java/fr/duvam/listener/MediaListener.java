@@ -5,20 +5,16 @@ import org.slf4j.LoggerFactory;
 
 import fr.duvam.lights.Lights;
 import fr.duvam.media.PlayerManager;
-import fr.duvam.media.player.AudioPlayer;
 
 public class MediaListener implements Runnable {
 
 	PlayerManager playerManager;
-	CommandListener listener;
-	Lights lights;
 
 	private static Logger LOGGER = LoggerFactory.getLogger(MediaListener.class);
 
-	public MediaListener(PlayerManager playerManager, CommandListener listener, Lights lights) {
+	public MediaListener(PlayerManager playerManager) {
 		super();
 		this.playerManager = playerManager;
-		this.lights = lights;
 	}
 
 	@Override

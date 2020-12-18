@@ -11,14 +11,15 @@ import fr.duvam.listener.KeyboardListener;
 import fr.duvam.media.MediaLoading.Type;
 import fr.duvam.media.player.AudioPlayer;
 import fr.duvam.media.player.VideoPlayer;
-import fr.duvam.midi.MidiHandler;
+import fr.duvam.midi.MidiListener;
+import fr.duvam.midi.MidiPlayer;
 
 public class PlayerManager {
 
 	private static final Logger LOGGER = Logger.getLogger(PlayerManager.class);
 
 	ArduinoComm arduino;
-	MidiHandler midi;
+	MidiPlayer midi;
 
 	public AudioPlayer audioPlayer;
 	public VideoPlayer videoPlayer;
@@ -27,8 +28,7 @@ public class PlayerManager {
 
 	private final MediaLoading mediaLoading;
 
-	public PlayerManager(CommandListener commandListener, ArduinoComm arduino,
-			MidiHandler midi) {
+	public PlayerManager(CommandListener commandListener, ArduinoComm arduino, MidiPlayer midi) {
 
 		this.mediaLoading = new MediaLoading();
 		this.arduino = arduino;
@@ -40,16 +40,14 @@ public class PlayerManager {
 		frame.setSize(1200, 800);
 
 		frame.addKeyListener(new KeyboardListener(commandListener));
-		
+
 		videoPlayer = new VideoPlayer(mediaLoading, frame);
 		audioPlayer = new AudioPlayer(videoPlayer, mediaLoading);
-		
-	}
 
+	}
 
 	public void play(String key) {
 
-		LOGGER.info("fire : " + key);
 		MediaItem media = mediaLoading.getMedia(key);
 
 		if (media == null) {
@@ -57,9 +55,8 @@ public class PlayerManager {
 			return;
 		}
 
-		Type type = media.getType();
-
-		switch (type) {
+		LOGGER.info(media.getType().toString() + " key : " + key + " video : " + media.getVideo() + " sound " + media.getSound());
+		switch (media.getType()) {
 		case GIF:
 			// TODO make full screen integrated to jpane
 			videoPlayer.playGIF(media.getVideo());
@@ -74,9 +71,9 @@ public class PlayerManager {
 			break;
 
 		// TODO use speak video with time frame ?
-		//case SPEAK:
-		//	audioPlayer.speak(media.getSound());
-		//	break;
+		// case SPEAK:
+		// audioPlayer.speak(media.getSound());
+		// break;
 		case AUDIO_VIDEO:
 			playAudioVideo(media.getSound(), media.getVideo());
 			break;
@@ -87,19 +84,20 @@ public class PlayerManager {
 			Lights.mod = Integer.parseInt(media.getVideo());
 			break;
 		case MIDI:
-			midi.sendMsg();
+			midi.sendMsg(media.getVideo());
 			// Lights.mod = Integer.parseInt(media.getVideo());
 			break;
+		case EMOTION:
+			break;
+		case SPEAK:
+			break;
 		}
-		videoPlayer.setDefaultPlaying (false);
+		videoPlayer.setDefaultPlaying(false);
 	}
 
-	
 	public void playAudioVideo(String audio, String video) {
 		videoPlayer.play(video, true);
 		audioPlayer.play(audio);
 	}
-	
-
 
 }

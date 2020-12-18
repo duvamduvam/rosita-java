@@ -11,7 +11,6 @@ import javax.swing.JLabel;
 import org.apache.log4j.Logger;
 
 import fr.duvam.media.MediaLoading;
-import fr.duvam.media.PlayerManager;
 import uk.co.caprica.vlcj.player.base.MediaPlayer;
 import uk.co.caprica.vlcj.player.base.MediaPlayerEventAdapter;
 import uk.co.caprica.vlcj.player.component.EmbeddedMediaPlayerComponent;
