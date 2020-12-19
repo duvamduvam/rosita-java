@@ -37,6 +37,11 @@ $B12|AUDIO_VIDEO|videos/bored.mp4|audios/250conditionsDeTravail.wav
 125|VIDEO|videos/speak-15.mp4|*
 1|VIDEOR|videos/angry-speak.mp4|*
 2|VIDEOR|videos/bored.mp4|*
+S11|VIDEO|videos/speak-2.mp4|audios/rose-salut.wav
+S12|VIDEO|videos/angry-speak.mp4|audios/rose-disdonc.wav
+S15|VIDEO|videos/bored.mp4|audios/rose-jardin.wav
+S16|VIDEO|videos/angry-speak.mp4|audios/rose-nimp.wav
+S19|VIDEO|videos/bored.mp4|audios/rose-samossa.wav
 58|ARDUINO|1|*
 59|ARDUINO|2|*
 1|ARDUINO|1|*

@@ -11124,3 +11124,512 @@
 2020-12-18 14:46:02 INFO  MidiListener:68 -  midi name rositaIn channel : 0 | data1 : 114 | data2 : 64
 2020-12-18 14:46:03 INFO  VideoPlayer:68 - play video : videos/speak-4.mp4
 2020-12-18 14:46:07 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-18 23:39:53 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-18 23:39:53 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-18 23:39:53 DEBUG Properties:18 - properties loaded
+2020-12-18 23:39:53 INFO  ArduinoComm:63 - windows port COM6
+2020-12-18 23:39:53 INFO  ArduinoComm:87 - Could not find COM port
+2020-12-18 23:39:53 ERROR ArduinoComm:105 - can't reach arduino
+2020-12-18 23:39:53 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-18 23:39:53 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-18 23:39:53 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:39:53 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-18 23:39:53 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:39:53 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-18 23:39:53 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-18 23:39:53 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-18 23:40:00 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-18 23:42:17 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-18 23:42:17 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-18 23:42:17 DEBUG Properties:18 - properties loaded
+2020-12-18 23:42:17 INFO  ArduinoComm:63 - windows port COM15
+2020-12-18 23:42:17 INFO  ArduinoComm:87 - Could not find COM port
+2020-12-18 23:42:17 ERROR ArduinoComm:105 - can't reach arduino
+2020-12-18 23:42:17 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-18 23:42:17 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-18 23:42:17 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:42:17 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-18 23:42:17 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:42:17 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-18 23:42:17 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-18 23:42:17 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-18 23:42:24 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-18 23:44:37 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-18 23:44:37 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-18 23:44:37 DEBUG Properties:18 - properties loaded
+2020-12-18 23:44:37 INFO  ArduinoComm:63 - windows port COM6
+2020-12-18 23:44:37 INFO  ArduinoComm:78 - open arduino on port : COM6
+2020-12-18 23:44:37 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-18 23:44:37 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-18 23:44:37 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:44:37 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-18 23:44:37 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-18 23:44:37 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-18 23:44:37 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-18 23:44:37 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-18 23:44:43 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-18 23:44:48 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-18 23:44:48 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-18 23:44:48 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-18 23:44:49 INFO  ArduinoComm:131 -  received from arduino : 20
+2020-12-18 23:44:49 INFO  PlayerManager:59 - MIDI key : 20 video : 61 sound *
+2020-12-18 23:44:49 INFO  MidiPlayer:56 -  send midi note 61
+2020-12-19 01:46:26 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-19 01:46:26 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-19 01:46:26 DEBUG Properties:18 - properties loaded
+2020-12-19 01:46:26 INFO  ArduinoComm:63 - windows port COM6
+2020-12-19 01:46:26 INFO  ArduinoComm:78 - open arduino on port : COM6
+2020-12-19 01:46:26 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-19 01:46:26 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-19 01:46:26 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:46:26 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-19 01:46:26 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:46:26 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-19 01:46:26 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-19 01:46:26 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-19 01:46:32 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-19 01:46:40 INFO  ArduinoComm:131 -  received from arduino : 24
+2020-12-19 01:46:40 INFO  PlayerManager:59 - MIDI key : 24 video : 63 sound *
+2020-12-19 01:46:40 INFO  MidiPlayer:56 -  send midi note 63
+2020-12-19 01:46:41 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:46:41 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:46:41 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:46:42 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-19 01:46:42 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-19 01:46:42 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-19 01:46:43 INFO  ArduinoComm:131 -  received from arduino : 20
+2020-12-19 01:46:43 INFO  PlayerManager:59 - MIDI key : 20 video : 61 sound *
+2020-12-19 01:46:43 INFO  MidiPlayer:56 -  send midi note 61
+2020-12-19 01:54:35 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-19 01:54:35 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-19 01:54:35 DEBUG Properties:18 - properties loaded
+2020-12-19 01:54:35 INFO  ArduinoComm:63 - windows port COM6
+2020-12-19 01:54:35 INFO  ArduinoComm:78 - open arduino on port : COM6
+2020-12-19 01:54:35 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-19 01:54:35 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-19 01:54:35 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:54:35 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-19 01:54:35 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:54:35 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-19 01:54:35 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = A11, type = VIDEO, video = videos/speak-2.mp4, sound = audios/rose-salut.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = A12, type = VIDEO, video = videos/angry-speak.mp4, sound = audios/rose-disdonc.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = A15, type = VIDEO, video = videos/bored.mp, sound = audios/rose-jardin.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = A16, type = VIDEO, video = videos/angry-speak.mp4, sound = audios/rose-nimp.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = A19, type = VIDEO, video = videos/bored.mp, sound = audios/rose-samossa.wav
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-19 01:54:35 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-19 01:54:36 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-19 01:54:36 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-19 01:54:36 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-19 01:54:36 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-19 01:54:36 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-19 01:54:42 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-19 01:54:57 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-19 01:54:57 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-19 01:54:57 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-19 01:54:58 INFO  ArduinoComm:131 -  received from arduino : 20
+2020-12-19 01:54:59 INFO  PlayerManager:59 - MIDI key : 20 video : 61 sound *
+2020-12-19 01:54:59 INFO  MidiPlayer:56 -  send midi note 61
+2020-12-19 01:55:00 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:55:00 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:55:00 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:55:06 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-19 01:55:06 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-19 01:55:06 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-19 01:55:07 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-19 01:55:07 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-19 01:55:07 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-19 01:55:08 INFO  ArduinoComm:131 -  received from arduino : 19
+2020-12-19 01:55:08 INFO  PlayerManager:59 - MIDI key : 19 video : 60 sound *
+2020-12-19 01:55:08 INFO  MidiPlayer:56 -  send midi note 60
+2020-12-19 01:57:16 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-19 01:57:16 INFO  Rosita:41 - C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\David\AppData\Local\Microsoft\WindowsApps;;.
+2020-12-19 01:57:16 DEBUG Properties:18 - properties loaded
+2020-12-19 01:57:16 INFO  ArduinoComm:63 - windows port COM6
+2020-12-19 01:57:16 INFO  ArduinoComm:78 - open arduino on port : COM6
+2020-12-19 01:57:16 INFO  MidiListener:41 - set up midi listener rositaIn
+2020-12-19 01:57:16 INFO  MidiListener:47 - rositaIn Was Opened
+2020-12-19 01:57:16 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:57:16 ERROR MidiPlayer:49 - javax.sound.midi.MidiUnavailableException: MIDI IN receiver not available
+2020-12-19 01:57:16 INFO  MidiPlayer:35 - set up midi transmitter rositaOut
+2020-12-19 01:57:16 INFO  MidiPlayer:41 - receiver from rositaOut set
+2020-12-19 01:57:16 INFO  MidiPlayer:45 - rositaOut Was Opened
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 10000, type = VIDEO, video = videos/rbase.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2000, type = AUDIO_VIDEO, video = videos/gifs/test.gif, sound = audios/100bonjour.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2003, type = AUDIO_VIDEO, video = videos/rspeak.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = $B11, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = l, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = o, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = p, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/100bonjour.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = m, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = u, type = AUDIO_VIDEO, video = videos/rspeakmp4, sound = audios/101bahViens.mp3
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = i, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/100bonjour.mp3
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = j, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/102ouiToi.mp3
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = k, type = AUDIO_VIDEO, video = videos/angry-speak.mp4, sound = audios/test-long.mp3
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = x, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = $B12, type = AUDIO_VIDEO, video = videos/bored.mp4, sound = audios/250conditionsDeTravail.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2004, type = VIDEO, video = /home/david/Vidéos/Near.Death.Experience.2014.VFF.DVDRip.XviD.avi, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2006, type = VIDEO, video = videos/bored.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2007, type = VIDEO, video = videos/baket.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 98, type = VIDEO, video = videos/rbase.mp4, sound = *AUDIO_VIDEO
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 99, type = VIDEOR, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 104, type = VIDEOR, video = videos/geek.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 105, type = VIDEOR, video = videos/pain.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 55, type = VIDEO, video = videos/rspeak.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 111, type = VIDEO, video = videos/speak-1.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 112, type = VIDEO, video = videos/speak-2.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 113, type = VIDEO, video = videos/speak-3.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 114, type = VIDEO, video = videos/speak-4.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 115, type = VIDEO, video = videos/speak-5.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 116, type = VIDEO, video = videos/speak-6.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 117, type = VIDEO, video = videos/speak-7.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 118, type = VIDEO, video = videos/speak-8.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 119, type = VIDEO, video = videos/speak-9.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 120, type = VIDEO, video = videos/speak-10.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 121, type = VIDEO, video = videos/speak-11.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 122, type = VIDEO, video = videos/speak-12.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 123, type = VIDEO, video = videos/speak-13.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 124, type = VIDEO, video = videos/speak-14.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 125, type = VIDEO, video = videos/speak-15.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 1, type = VIDEOR, video = videos/angry-speak.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2, type = VIDEOR, video = videos/bored.mp4, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = A11, type = VIDEO, video = videos/speak-2.mp4, sound = audios/rose-salut.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = A12, type = VIDEO, video = videos/angry-speak.mp4, sound = audios/rose-disdonc.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = A15, type = VIDEO, video = videos/bored.mp, sound = audios/rose-jardin.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = A16, type = VIDEO, video = videos/angry-speak.mp4, sound = audios/rose-nimp.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = A19, type = VIDEO, video = videos/bored.mp, sound = audios/rose-samossa.wav
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 58, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 59, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 1, type = ARDUINO, video = 1, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 2, type = ARDUINO, video = 2, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = a, type = ARDUINO, video = a, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = q, type = ARDUINO, video = q, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = s, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = z, type = ARDUINO, video = z, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = b, type = LIGHTS, video = 5, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = f, type = ARDUINO, video = moveforward, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = b, type = ARDUINO, video = movebackard, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = l, type = ARDUINO, video = moveleft, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = r, type = ARDUINO, video = moveright, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = s, type = ARDUINO, video = movestop, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = y, type = MIDI, video = 60, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 19, type = MIDI, video = 60, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 20, type = MIDI, video = 61, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 23, type = MIDI, video = 62, sound = *
+2020-12-19 01:57:16 INFO  MediaItem:19 - loading media : key = 24, type = MIDI, video = 63, sound = *
+2020-12-19 01:57:23 INFO  VideoPlayer:68 - play video : videos/rbase.mp4
+2020-12-19 01:57:26 INFO  ArduinoComm:131 -  received from arduino : S11
+2020-12-19 01:57:26 ERROR PlayerManager:54 - no media for key S11
+2020-12-19 01:57:28 INFO  ArduinoComm:131 -  received from arduino : S12
+2020-12-19 01:57:28 ERROR PlayerManager:54 - no media for key S12
+2020-12-19 01:57:30 INFO  ArduinoComm:131 -  received from arduino : S15
+2020-12-19 01:57:30 ERROR PlayerManager:54 - no media for key S15
+2020-12-19 01:57:31 INFO  ArduinoComm:131 -  received from arduino : S16
+2020-12-19 01:57:31 ERROR PlayerManager:54 - no media for key S16
+2020-12-19 01:57:32 INFO  ArduinoComm:131 -  received from arduino : S19
+2020-12-19 01:57:32 ERROR PlayerManager:54 - no media for key S19
+2020-12-19 01:57:33 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:57:33 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:57:33 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:57:34 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:57:34 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:57:34 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:57:35 INFO  ArduinoComm:131 -  received from arduino : 24
+2020-12-19 01:57:35 INFO  PlayerManager:59 - MIDI key : 24 video : 63 sound *
+2020-12-19 01:57:35 INFO  MidiPlayer:56 -  send midi note 63
+2020-12-19 01:57:37 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:57:37 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:57:37 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:57:40 INFO  ArduinoComm:131 -  received from arduino : 23
+2020-12-19 01:57:40 INFO  PlayerManager:59 - MIDI key : 23 video : 62 sound *
+2020-12-19 01:57:40 INFO  MidiPlayer:56 -  send midi note 62
+2020-12-19 01:57:41 INFO  ArduinoComm:131 -  received from arduino : S19
+2020-12-19 01:57:41 ERROR PlayerManager:54 - no media for key S19
+2020-12-19 01:57:42 INFO  ArduinoComm:131 -  received from arduino : S15
+2020-12-19 01:57:42 ERROR PlayerManager:54 - no media for key S15
+2020-12-19 01:57:43 INFO  ArduinoComm:131 -  received from arduino : S11
+2020-12-19 01:57:43 ERROR PlayerManager:54 - no media for key S11
+2020-12-19 01:57:46 INFO  ArduinoComm:131 -  received from arduino : S12
+2020-12-19 01:57:46 ERROR PlayerManager:54 - no media for key S12
+2020-12-19 01:57:47 INFO  ArduinoComm:131 -  received from arduino : S11
+2020-12-19 01:57:47 ERROR PlayerManager:54 - no media for key S11
