@@ -1,5 +1,8 @@
 package fr.duvam.utils;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -54,8 +57,13 @@ public class OSValidator {
 	}
 
 	public static String getFullOS() {
-		String os =  System.getProperty("os.name");
-		LOGGER.info("current os : "+os);
+		String os = "";
+		try {
+			os = System.getProperty("os.name") + "-" + InetAddress.getLocalHost().getHostName();
+		} catch (UnknownHostException e) {
+			LOGGER.error("can't get os name", e);
+		}
+		LOGGER.info("current os : " + os);
 		return os;
 	}
 

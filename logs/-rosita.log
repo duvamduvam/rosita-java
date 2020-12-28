@@ -39,3 +39,10 @@
 2020-12-28 22:51:10 INFO  ArduinoComm:61 - linux port [/dev/ttyS0, /dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
 2020-12-28 22:51:10 INFO  ArduinoComm:95 - open arduino on port : /dev/ttyS0
 2020-12-28 22:51:11 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:58:05 INFO  OSValidator:66 - current os : Linux-duvam
+2020-12-28 22:58:05 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:58:05 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:58:05 INFO  OSValidator:66 - current os : Linux-duvam
+2020-12-28 22:58:05 INFO  ArduinoComm:61 - linux port [/dev/ttyS0, /dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:58:05 INFO  ArduinoComm:95 - open arduino on port : /dev/ttyS0
+2020-12-28 22:58:05 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
