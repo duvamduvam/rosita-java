@@ -32,10 +32,10 @@ public class OSValidator {
 	public static Type getOS() {
 		if (isWindows()) {
 			return Type.WIN;
-		} else if (isLinux()) {
-			return Type.DEBIAN;
 		} else if (isPi()) {
 			return Type.PI;
+		} else if (isLinux()) {
+			return Type.DEBIAN;
 		} else {
 			return null;
 		}
