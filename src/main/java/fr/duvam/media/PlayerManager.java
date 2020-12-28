@@ -1,8 +1,5 @@
 package fr.duvam.media;
 
-import java.awt.GraphicsDevice;
-import java.awt.GraphicsEnvironment;
-
 import javax.swing.JFrame;
 
 import org.apache.log4j.Logger;
@@ -13,14 +10,12 @@ import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.KeyboardListener;
 import fr.duvam.media.player.AudioPlayer;
 import fr.duvam.media.player.VideoPlayer;
-import fr.duvam.midi.MidiPlayer;
 
 public class PlayerManager {
 
 	private static final Logger LOGGER = Logger.getLogger(PlayerManager.class);
 
 	ArduinoComm arduino;
-	MidiPlayer midi;
 
 	public AudioPlayer audioPlayer;
 	public VideoPlayer videoPlayer;
@@ -29,16 +24,10 @@ public class PlayerManager {
 
 	private final MediaLoading mediaLoading;
 
-	public PlayerManager(CommandListener commandListener, ArduinoComm arduino, MidiPlayer midi) {
+	public PlayerManager(CommandListener commandListener, ArduinoComm arduino) {
 
 		this.mediaLoading = new MediaLoading();
 		this.arduino = arduino;
-		this.midi = midi;
-		
-		//GraphicsDevice screen[] = GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices();
-		
-		//screen[0].get
-		//mainScreen.
 
 		frame = new JFrame();
 		// frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -89,10 +78,10 @@ public class PlayerManager {
 		case LIGHTS:
 			Lights.mod = Integer.parseInt(media.getVideo());
 			break;
-		case MIDI:
-			midi.sendMsg(media.getVideo());
+		//case MIDI:
+		//	midi.sendMsg(media.getVideo());
 			// Lights.mod = Integer.parseInt(media.getVideo());
-			break;
+		//	break;
 		case EMOTION:
 			break;
 		case SPEAK:

@@ -31,7 +31,7 @@ public class MidiListener {
 
 		MidiDevice.Info[] infos = MidiSystem.getMidiDeviceInfo();
 
-		String midiIn = properties.get("midi.in");
+		String midiIn = properties.getString("midi.in");
 		for (int i = 0; i < infos.length; i++) {
 			try {
 

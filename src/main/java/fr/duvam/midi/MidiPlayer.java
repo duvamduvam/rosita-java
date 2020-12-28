@@ -10,7 +10,6 @@ import javax.sound.midi.ShortMessage;
 import org.apache.log4j.Logger;
 
 import fr.duvam.PropertiesUtil;
-import fr.duvam.listener.CommandListener;
 
 
 //import com.sun.media.sound.MidiOutDevice;
@@ -27,7 +26,7 @@ public class MidiPlayer {
 		this.properties = properties;
 
 		MidiDevice.Info[] infos = MidiSystem.getMidiDeviceInfo();
-		String midiOut = properties.get("midi.out");
+		String midiOut = properties.getString("midi.out");
 		for (int i = 0; i < infos.length; i++) {
 			try {
 

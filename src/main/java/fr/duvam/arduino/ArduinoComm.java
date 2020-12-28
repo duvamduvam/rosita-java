@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Enumeration;
+import java.util.LinkedList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 
@@ -22,10 +24,12 @@ public class ArduinoComm implements SerialPortEventListener {
 
 	private static final Logger LOGGER = Logger.getLogger(ArduinoComm.class);
 
-	private static final String PORT_NAMES[] = { "/dev/ttyACM0", "/dev/ttyACM1", "/dev/ttyACM2", // Raspberry Pi
-			"/dev/ttyAMA0", "/dev/ttyUSB0", // Linux
-			"COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM11", "COM18", "COM19", "COM24",// Windows
-	};
+	/*
+	 * private static final String PORT_NAMES[] = { "/dev/ttyACM0", "/dev/ttyACM1",
+	 * "/dev/ttyACM2", // Raspberry Pi "/dev/ttyAMA0", "/dev/ttyUSB0", // Linux
+	 * "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM11", "COM18", "COM19",
+	 * "COM24",// Windows };
+	 */
 	/**
 	 * A BufferedReader which will be fed by a InputStreamReader converting the
 	 * bytes into characters making the displayed results codepage independent
@@ -51,59 +55,60 @@ public class ArduinoComm implements SerialPortEventListener {
 
 		String os = OSValidator.getFullOS();
 
-		String port ="";
+		List<String> ports = new LinkedList<String>();
 		if (os.contains("arm")) {
-			port = properties.get("port.pi");
-			LOGGER.info("raspian port " + port);
+			ports = properties.getList("port.pi");
+			LOGGER.info("raspian port " + ports);
 		} else if (os.contains("linux")) {
-			port = properties.get("port.linux");
-			LOGGER.info("linux port " + port);
+			ports = properties.getList("port.linux");
+			LOGGER.info("linux port " + ports);
 		} else if (os.contains("win")) {
-			port = properties.get("port.win");
-			LOGGER.info("windows port " + port);
+			ports = properties.getList("port.win");
+			LOGGER.info("windows port " + ports);
 		}
 
-		System.setProperty("gnu.io.rxtx.SerialPorts", port);
-		
 		CommPortIdentifier portId = null;
 		Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
 		// First, Find an instance of serial port as set in PORT_NAMES.
 		while (portEnum.hasMoreElements()) {
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
-			for (String portName : PORT_NAMES) {
+			for (String portName : ports) {
 
 				if (currPortId.getName().equals(portName)) {
 					portId = currPortId;
 					LOGGER.info("open arduino on port : " + portName);
-					break;
+
+					try {
+
+						if (portId == null) {
+							LOGGER.info("Could not find COM port");
+							return;
+						}
+
+						serialPort = (SerialPort) portId.open(this.getClass().getName(), TIME_OUT);
+
+						// set port parameters
+						serialPort.setSerialPortParams(DATA_RATE, SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
+								SerialPort.PARITY_NONE);
+
+						// open the streams
+						input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
+						output = serialPort.getOutputStream();
+
+						// add event listeners
+						// create access violation error
+						serialPort.addEventListener(this);
+						serialPort.notifyOnDataAvailable(true);
+						break;
+					} catch (Exception e) {
+						LOGGER.error("can't reach arduino on port : " + portName);
+					}
 				}
 			}
+			LOGGER.error("no arduino found");
 		}
 
-		try {
-
-			if (portId == null) {
-				LOGGER.info("Could not find COM port");
-			}
-
-			serialPort = (SerialPort) portId.open(this.getClass().getName(), TIME_OUT);
-
-			// set port parameters
-			serialPort.setSerialPortParams(DATA_RATE, SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
-					SerialPort.PARITY_NONE);
-
-			// open the streams
-			input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
-			output = serialPort.getOutputStream();
-
-			// add event listeners
-			// create access violation error
-			serialPort.addEventListener(this);
-			serialPort.notifyOnDataAvailable(true);
-		} catch (Exception e) {
-			LOGGER.error("can't reach arduino");
-		}
 	}
 
 	/**

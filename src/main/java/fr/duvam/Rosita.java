@@ -12,8 +12,6 @@ import fr.duvam.lights.Lights;
 import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
-import fr.duvam.midi.MidiListener;
-import fr.duvam.midi.MidiPlayer;
 import fr.duvam.utils.OSValidator;
 
 public class Rosita {
@@ -47,10 +45,10 @@ public class Rosita {
 		// midi listener and player !!!! leave the lister before the player therwise the
 		// player don't work
 		// TODO could be moved inside playerManager
-		new MidiListener(commands, properties);
-		MidiPlayer midiPlayer = new MidiPlayer(properties);
+		//new MidiListener(commands, properties);
+		//MidiPlayer midiPlayer = new MidiPlayer(properties);
 
-		playerManager = new PlayerManager(commands, arduino, midiPlayer);
+		playerManager = new PlayerManager(commands, arduino);
 		commands.setPlayerManager(playerManager);
 		// lights = new Lights(arduino);
 
