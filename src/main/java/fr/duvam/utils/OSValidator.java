@@ -1,12 +1,14 @@
 package fr.duvam.utils;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class OSValidator {
 
+	private static Logger LOGGER = LoggerFactory.getLogger(OSValidator.class);
 	private static String OS = System.getProperty("os.name", "generic").toLowerCase();
 
 	public static void main(String[] args) {
-
-		System.out.println(OS);
 
 		if (isWindows()) {
 			System.out.println("This is Windows");
@@ -52,7 +54,9 @@ public class OSValidator {
 	}
 
 	public static String getFullOS() {
-		return OS + "-" + System.getProperty("os.name");
+		String os =  System.getProperty("os.name");
+		LOGGER.info("current os : "+os);
+		return os;
 	}
 
 }

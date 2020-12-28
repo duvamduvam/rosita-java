@@ -56,59 +56,66 @@ public class ArduinoComm implements SerialPortEventListener {
 		String os = OSValidator.getFullOS();
 
 		List<String> ports = new LinkedList<String>();
-		if (os.contains("arm")) {
-			ports = properties.getList("port.pi");
-			LOGGER.info("raspian port " + ports);
-		} else if (os.contains("linux")) {
+		if (os.contains("Linux")) {
 			ports = properties.getList("port.linux");
 			LOGGER.info("linux port " + ports);
+		} else if (os.contains("raspberry")) {
+			ports = properties.getList("port.pi");
+			LOGGER.info("raspian port " + ports);
 		} else if (os.contains("win")) {
 			ports = properties.getList("port.win");
 			LOGGER.info("windows port " + ports);
 		}
 
+		boolean arduinoConnected = false;
+		for (String port : ports) {
+			System.setProperty("gnu.io.rxtx.SerialPorts", port);
+			arduinoConnected = connectPort(port);
+			if (arduinoConnected) {
+				break;
+			}
+		}
+
+		if (!arduinoConnected) {
+			LOGGER.error("no arduino found");
+		}
+
+	}
+
+	private boolean connectPort(String port) {
 		CommPortIdentifier portId = null;
 		Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
 		// First, Find an instance of serial port as set in PORT_NAMES.
 		while (portEnum.hasMoreElements()) {
 			CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
-			for (String portName : ports) {
 
-				if (currPortId.getName().equals(portName)) {
-					portId = currPortId;
-					LOGGER.info("open arduino on port : " + portName);
+			if (currPortId.getName().equals(port)) {
+				portId = currPortId;
+				LOGGER.info("open arduino on port : " + port);
 
-					try {
+				try {
+					serialPort = (SerialPort) portId.open(this.getClass().getName(), TIME_OUT);
 
-						if (portId == null) {
-							LOGGER.info("Could not find COM port");
-							return;
-						}
+					// set port parameters
+					serialPort.setSerialPortParams(DATA_RATE, SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
+							SerialPort.PARITY_NONE);
 
-						serialPort = (SerialPort) portId.open(this.getClass().getName(), TIME_OUT);
+					// open the streams
+					input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
+					output = serialPort.getOutputStream();
 
-						// set port parameters
-						serialPort.setSerialPortParams(DATA_RATE, SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
-								SerialPort.PARITY_NONE);
-
-						// open the streams
-						input = new BufferedReader(new InputStreamReader(serialPort.getInputStream()));
-						output = serialPort.getOutputStream();
-
-						// add event listeners
-						// create access violation error
-						serialPort.addEventListener(this);
-						serialPort.notifyOnDataAvailable(true);
-						break;
-					} catch (Exception e) {
-						LOGGER.error("can't reach arduino on port : " + portName);
-					}
+					// add event listeners
+					// create access violation error
+					serialPort.addEventListener(this);
+					serialPort.notifyOnDataAvailable(true);
+					return true;
+				} catch (Exception e) {
+					LOGGER.error("can't reach arduino on port : " + port);
 				}
 			}
-			LOGGER.error("no arduino found");
 		}
-
+		return false;
 	}
 
 	/**
