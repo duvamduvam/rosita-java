@@ -70,4 +70,9 @@ y|MIDI|60|*
 20|MIDI|61|*
 23|MIDI|62|*
 24|MIDI|63|*
-
+$A11|VIDEO|videos/speak-10.mp4|*
+$A12|VIDEO|videos/speak-11.mp4|*
+$A13|VIDEO|videos/speak-12.mp4|*
+$A14|VIDEO|videos/speak-13.mp4|*
+$A15|VIDEO|videos/speak-14.mp4|*
+$A16|VIDEO|videos/speak-15.mp4|*
