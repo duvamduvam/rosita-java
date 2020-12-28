@@ -16,7 +16,7 @@ public class MediaItem {
 	String video;
 
 	public MediaItem(String key, Type type, String video, String sound) {
-		LOGGER.info("loading media : key = "+key+", type = "+type.toString()+", video = "+video+", sound = "+sound);
+		LOGGER.trace("loading media : key = "+key+", type = "+type.toString()+", video = "+video+", sound = "+sound);
 		this.key = key;
 		this.type = type;
 		this.video = video;

@@ -1,5 +1,8 @@
 package fr.duvam.media;
 
+import java.awt.GraphicsDevice;
+import java.awt.GraphicsEnvironment;
+
 import javax.swing.JFrame;
 
 import org.apache.log4j.Logger;
@@ -8,10 +11,8 @@ import fr.duvam.arduino.ArduinoComm;
 import fr.duvam.lights.Lights;
 import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.KeyboardListener;
-import fr.duvam.media.MediaLoading.Type;
 import fr.duvam.media.player.AudioPlayer;
 import fr.duvam.media.player.VideoPlayer;
-import fr.duvam.midi.MidiListener;
 import fr.duvam.midi.MidiPlayer;
 
 public class PlayerManager {
@@ -33,6 +34,11 @@ public class PlayerManager {
 		this.mediaLoading = new MediaLoading();
 		this.arduino = arduino;
 		this.midi = midi;
+		
+		//GraphicsDevice screen[] = GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices();
+		
+		//screen[0].get
+		//mainScreen.
 
 		frame = new JFrame();
 		// frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

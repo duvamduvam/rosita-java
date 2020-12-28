@@ -16,7 +16,7 @@ public class MediaLoading {
 
 	LinkedList<MediaItem> medias = new LinkedList<MediaItem>();
 
-	private final static String MEDIA_FILE = "keys/medias.txt";
+	private final static String MEDIA_FILE = "conf/medias.txt";
 
 	private final static String AUDIO_PATH = "audios/";
 

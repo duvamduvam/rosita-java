@@ -48,6 +48,7 @@ public class VideoPlayer {
 		});
 
 		frame.setContentPane(videoPlayerComponent);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 
 	}
