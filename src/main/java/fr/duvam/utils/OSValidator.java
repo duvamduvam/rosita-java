@@ -3,68 +3,53 @@ package fr.duvam.utils;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class OSValidator {
 
-	private static Logger LOGGER = LoggerFactory.getLogger(OSValidator.class);
-	private static String OS = System.getProperty("os.name", "generic").toLowerCase();
+	private static String OS = "";
+
+	public static enum Type {
+		PI, DEBIAN, WIN;
+	}
 
 	public static void main(String[] args) {
 
-		if (isWindows()) {
-			System.out.println("This is Windows");
-		} else if (isMac()) {
-			System.out.println("This is Mac");
-		} else if (isUnix()) {
-			System.out.println("This is Unix or Linux");
-		} else if (isSolaris()) {
-			System.out.println("This is Solaris");
-		} else {
-			System.out.println("Your OS is not support!!");
-		}
+		System.out.println(getFullOS());
+
 	}
 
 	public static boolean isWindows() {
-		return OS.contains("win");
+		return (getFullOS().contains("win"));
 	}
 
-	public static boolean isMac() {
-		return OS.contains("mac");
+	public static boolean isPi() {
+		return (getFullOS().contains("pi"));
 	}
 
-	public static boolean isUnix() {
-		return (OS.contains("nix") || OS.contains("nux") || OS.contains("aix"));
+	public static boolean isLinux() {
+		return (OS.contains("linux") || OS.contains("Linux"));
 	}
 
-	public static boolean isSolaris() {
-		return OS.contains("sunos");
-	}
-
-	public static String getOS() {
+	public static Type getOS() {
 		if (isWindows()) {
-			return "win";
-		} else if (isMac()) {
-			return "osx";
-		} else if (isUnix()) {
-			return "uni";
-		} else if (isSolaris()) {
-			return "sol";
+			return Type.WIN;
+		} else if (isLinux()) {
+			return Type.DEBIAN;
+		} else if (isPi()) {
+			return Type.PI;
 		} else {
-			return "err";
+			return null;
 		}
 	}
 
 	public static String getFullOS() {
-		String os = "";
-		try {
-			os = System.getProperty("os.name") + "-" + InetAddress.getLocalHost().getHostName();
-		} catch (UnknownHostException e) {
-			LOGGER.error("can't get os name", e);
+		if (OS.isEmpty()) {
+			try {
+				OS = System.getProperty("os.name", "generic") + "-" + InetAddress.getLocalHost().getHostName();
+			} catch (UnknownHostException e) {
+				System.out.println("can't get system");
+			}
 		}
-		LOGGER.info("current os : " + os);
-		return os;
+		return OS;
 	}
 
 }

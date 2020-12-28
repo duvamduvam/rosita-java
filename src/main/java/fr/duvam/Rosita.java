@@ -21,7 +21,8 @@ public class Rosita {
 	private CommandListener commands;
 	private PlayerManager playerManager;
 	private Lights lights;
-
+	PropertiesUtil properties;
+	
 	public static void main(String[] args) {
 
 		SwingUtilities.invokeLater(new Runnable() {
@@ -34,19 +35,17 @@ public class Rosita {
 
 	public Rosita() {
 
+		properties = new PropertiesUtil();
+		
 		initLog();
-
-		LOGGER.info(System.getProperty("java.library.path"));
-
-		PropertiesUtil properties = new PropertiesUtil();
 
 		commands = new CommandListener();
 		ArduinoComm arduino = new ArduinoComm(commands, properties);
 		// midi listener and player !!!! leave the lister before the player therwise the
 		// player don't work
 		// TODO could be moved inside playerManager
-		//new MidiListener(commands, properties);
-		//MidiPlayer midiPlayer = new MidiPlayer(properties);
+		// new MidiListener(commands, properties);
+		// MidiPlayer midiPlayer = new MidiPlayer(properties);
 
 		playerManager = new PlayerManager(commands, arduino);
 		commands.setPlayerManager(playerManager);
@@ -56,14 +55,16 @@ public class Rosita {
 
 	void initLog() {
 		// init log4j property logging
-		try {
-			String logPrefix = OSValidator.getFullOS() + "-" + InetAddress.getLocalHost().getHostName();
-			System.setProperty("hostName", logPrefix);
-			LOGGER = Logger.getLogger(Rosita.class);
-			LOGGER.info("<<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-		} catch (UnknownHostException e) {
-			LOGGER.error(e);
-		}
+		
+		
+		String logsPath = properties.getLogPath();
+		System.setProperty("logsPath", logsPath);		
+		String os = OSValidator.getFullOS();
+
+		System.setProperty("hostName", os);
+		
+		LOGGER = Logger.getLogger(Rosita.class);
+		LOGGER.info("current os : " + os);
 	}
 
 	protected void start() {
