@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -24,7 +25,7 @@ public class MediaLoading {
 	public final static String KEY_VIDEO_SPEAK = "10001";
 
 	enum Type {
-		GIF, VIDEO, VIDEOR, SPEAK, AUDIO_VIDEO, ARDUINO, LIGHTS, RELOAD, EMOTION, ;
+		GIF, VIDEO, VIDEOR, SPEAK, AUDIO_VIDEO, ARDUINO, LIGHTS, RELOAD, EMOTION,;
 
 		public static Type getType(String type) {
 			if (VIDEO.toString().equals(type)) {
@@ -44,8 +45,8 @@ public class MediaLoading {
 			} else if (RELOAD.toString().equals(type)) {
 				return RELOAD;
 			} else if (EMOTION.toString().equals(type)) {
-				return EMOTION;				
-			}else {
+				return EMOTION;
+			} else {
 				return null;
 			}
 		}
@@ -96,8 +97,12 @@ public class MediaLoading {
 		if (str.contains("|")) {
 			Scanner sc = new Scanner(str);
 			sc.useDelimiter("[|]");
-
-			MediaItem media = new MediaItem(sc.next(), Type.getType(sc.next()), sc.next(), sc.next());
+			MediaItem media = null;
+			try {
+				media = new MediaItem(sc.next(), Type.getType(sc.next()), sc.next(), sc.next());
+			} catch (NoSuchElementException e) {
+				LOGGER.error("problem loading : " + str);
+			}
 
 			sc.close();
 			return media;
