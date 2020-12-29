@@ -24,7 +24,7 @@ public class MediaLoading {
 	public final static String KEY_VIDEO_SPEAK = "10001";
 
 	enum Type {
-		GIF, VIDEO, VIDEOR, SPEAK, AUDIO_VIDEO, ARDUINO, LIGHTS, MIDI, EMOTION;
+		GIF, VIDEO, VIDEOR, SPEAK, AUDIO_VIDEO, ARDUINO, LIGHTS, RELOAD, EMOTION, ;
 
 		public static Type getType(String type) {
 			if (VIDEO.toString().equals(type)) {
@@ -41,8 +41,8 @@ public class MediaLoading {
 				return ARDUINO;
 			} else if (LIGHTS.toString().equals(type)) {
 				return LIGHTS;
-			} else if (MIDI.toString().equals(type)) {
-				return MIDI;
+			} else if (RELOAD.toString().equals(type)) {
+				return RELOAD;
 			} else if (EMOTION.toString().equals(type)) {
 				return EMOTION;				
 			}else {
@@ -72,7 +72,7 @@ public class MediaLoading {
 		loadMediaFile();
 	}
 
-	private void loadMediaFile() {
+	public void loadMediaFile() {
 		File file = new File(MEDIA_FILE);
 
 		try {
@@ -87,6 +87,7 @@ public class MediaLoading {
 		} catch (FileNotFoundException e) {
 			LOGGER.error("can't find " + MEDIA_FILE, e);
 		}
+		LOGGER.info("medias.txt loaded");
 
 	}
 

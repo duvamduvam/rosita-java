@@ -10,6 +10,7 @@ import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.KeyboardListener;
 import fr.duvam.media.player.AudioPlayer;
 import fr.duvam.media.player.VideoPlayer;
+import fr.duvam.utils.ShellCommands;
 
 public class PlayerManager {
 
@@ -85,6 +86,11 @@ public class PlayerManager {
 		case EMOTION:
 			break;
 		case SPEAK:
+			break;
+		case RELOAD:
+			ShellCommands shell = new ShellCommands();
+			shell.pull();
+			mediaLoading.loadMediaFile();
 			break;
 		}
 		videoPlayer.setDefaultPlaying(false);

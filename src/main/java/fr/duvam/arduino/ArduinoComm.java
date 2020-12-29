@@ -1,6 +1,7 @@
 package fr.duvam.arduino;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Enumeration;
@@ -9,15 +10,20 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import fr.duvam.PropertiesUtil;
 import fr.duvam.listener.CommandListener;
 import fr.duvam.utils.OSValidator;
+import fr.duvam.utils.PropertiesUtil;
+import fr.duvam.utils.ShellCommands;
 import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
 import gnu.io.SerialPortEventListener;
 
 public class ArduinoComm implements SerialPortEventListener {
+
+	final String lockPath = "/var/lock";
+	final String lockPrefix = "LCK..";
+
 	SerialPort serialPort;
 	CommandListener commandListener;
 	PropertiesUtil properties;
@@ -83,6 +89,20 @@ public class ArduinoComm implements SerialPortEventListener {
 	}
 
 	private boolean connectPort(String port) {
+
+		// delete lock
+		String lockName = lockPrefix + port.substring(5);
+		File lock = new File(lockPath + "/" + lockName);
+		LOGGER.trace("lock : "+lockPath + "/" + lockName);
+		if (lock.exists()) {
+			ShellCommands commands = new ShellCommands();
+			List<String> deleteLock = new LinkedList<String>();
+			deleteLock.add("rm");
+			deleteLock.add(lockName);
+			commands.run(lockPath, deleteLock);
+			LOGGER.error("remove : " + lockName);
+		}
+
 		CommPortIdentifier portId = null;
 		Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 

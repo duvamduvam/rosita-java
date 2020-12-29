@@ -76,3 +76,4 @@ $A13|VIDEO|videos/speak-12.mp4|*
 $A14|VIDEO|videos/speak-13.mp4|*
 $A15|VIDEO|videos/speak-14.mp4|*
 $A16|VIDEO|videos/speak-15.mp4|*
+$D24|RELOAD|*|*

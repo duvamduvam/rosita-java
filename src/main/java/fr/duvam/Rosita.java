@@ -1,8 +1,5 @@
 package fr.duvam;
 
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-
 import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
@@ -13,6 +10,7 @@ import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
 import fr.duvam.utils.OSValidator;
+import fr.duvam.utils.PropertiesUtil;
 
 public class Rosita {
 
@@ -54,9 +52,7 @@ public class Rosita {
 	}
 
 	void initLog() {
-		// init log4j property logging
-		
-		
+		// init log4j property logging		
 		String logsPath = properties.getLogPath();
 		System.setProperty("logsPath", logsPath);		
 		String os = OSValidator.getFullOS();

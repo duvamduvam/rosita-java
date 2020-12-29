@@ -9,7 +9,7 @@ import javax.sound.midi.ShortMessage;
 
 import org.apache.log4j.Logger;
 
-import fr.duvam.PropertiesUtil;
+import fr.duvam.utils.PropertiesUtil;
 
 
 //import com.sun.media.sound.MidiOutDevice;

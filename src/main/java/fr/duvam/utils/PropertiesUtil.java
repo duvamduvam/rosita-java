@@ -1,4 +1,4 @@
-package fr.duvam;
+package fr.duvam.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
-
-import fr.duvam.utils.OSValidator;
 
 public class PropertiesUtil {
 
@@ -56,4 +54,17 @@ public class PropertiesUtil {
 		return "";
 	}
 
+	public String getPullPath() {
+		switch (OSValidator.getOS()) {
+		case WIN:
+			return getString("pull.win.dir");
+		case PI:
+			return getString("pull.pi.dir");
+		case DEBIAN:
+			return getString("pull.linux.dir");
+		}
+		return "";
+	}
+
+	
 }
