@@ -38,6 +38,9 @@ public class FileChangedWatcher implements Runnable {
 
 	public void watch() {
 		try {
+			
+			LOGGER.info("start watch "+path.toString());
+			
 			WatchService watchService = FileSystems.getDefault().newWatchService();
 
 			// Only the delete event is fired once
