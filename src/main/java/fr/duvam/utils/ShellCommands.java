@@ -1,24 +1,11 @@
 package fr.duvam.utils;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.StringWriter;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Executors;
-
-import javax.script.ScriptContext;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-import javax.script.SimpleScriptContext;
-
-import org.apache.commons.exec.CommandLine;
-import org.apache.commons.exec.DefaultExecuteResultHandler;
-import org.apache.commons.exec.DefaultExecutor;
-import org.apache.commons.exec.ExecuteWatchdog;
-import org.apache.commons.exec.Executor;
 
 import jodd.io.StreamGobbler;
 
@@ -36,7 +23,8 @@ public class ShellCommands {
 
 	public static void main(String[] args) {
 
-		CommandLine cmdLine = new CommandLine("python3");
+		
+		/*CommandLine cmdLine = new CommandLine("python3");
 		cmdLine.addArgument("/home/david/Nextcloud/rosita/java/py/serialCom.py");
 		DefaultExecuteResultHandler resultHandler = new DefaultExecuteResultHandler();
 
@@ -50,7 +38,7 @@ public class ShellCommands {
 		} catch (IOException | InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 
 		// some time later the result handler callback was invoked so we
 		// can safely request the exit value

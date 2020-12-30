@@ -14,31 +14,47 @@ import org.apache.commons.exec.DefaultExecutor;
 import org.apache.commons.exec.ExecuteStreamHandler;
 import org.apache.commons.exec.ExecuteWatchdog;
 import org.apache.commons.exec.Executor;
+import org.apache.commons.exec.PumpStreamHandler;
+import org.apache.commons.io.output.ByteArrayOutputStream;
 
 public class ExtCommands {
 
 	public static void main(String[] args) throws Exception {
 		CommandLine cmdLine = new CommandLine("python3");
-		cmdLine.addArgument("//home/david/Nextcloud/rosita/java/py/serialCom.py");
-		// cmdLine.addArgument("/h");
-		// cmdLine.addArgument("${file}");
-
-		// HashMap map = new HashMap();
-		// map.put("file", new File("invoice.pdf"));
-		// cmdLine.setSubstitutionMap(map);
+		cmdLine.addArgument("/home/david/Nextcloud/rosita/java/py/serialCom.py");
 
 		DefaultExecuteResultHandler resultHandler = new DefaultExecuteResultHandler();
 
+		
+		ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+		//CommandLine cmdLine = new CommandLine(p4d);
+		//cmdLine.addArgument("-V");
+		//DefaultExecutor executor = new DefaultExecutor();
+		PumpStreamHandler streamHandler = new PumpStreamHandler(outputStream);
+
+		
 		ExecuteWatchdog watchdog = new ExecuteWatchdog(60 * 1000);
 		Executor executor = new DefaultExecutor();
 		executor.setExitValue(1);
 		executor.setWatchdog(watchdog);
-		executor.setStreamHandler(new CollectingLogOutputStream());
+		executor.setStreamHandler(streamHandler);
 		executor.execute(cmdLine, resultHandler);
+		
+		
+		
+		
 
 		// some time later the result handler callback was invoked so we
 		// can safely request the exit value
-		resultHandler.waitFor();
+		
+		
+		
+		//resultHandler.waitFor();
+		
+		//resultHandler.
+		
+		//resultHandler.
+		
 	}
 }
 

@@ -16,8 +16,6 @@ public class PlayerManager {
 
 	private static final Logger LOGGER = Logger.getLogger(PlayerManager.class);
 
-	ArduinoComm arduino;
-
 	public AudioPlayer audioPlayer;
 	public VideoPlayer videoPlayer;
 
@@ -25,10 +23,9 @@ public class PlayerManager {
 
 	private final MediaLoading mediaLoading;
 
-	public PlayerManager(CommandListener commandListener, ArduinoComm arduino) {
+	public PlayerManager(CommandListener commandListener) {
 
 		this.mediaLoading = new MediaLoading();
-		this.arduino = arduino;
 
 		frame = new JFrame();
 		// frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -74,7 +71,7 @@ public class PlayerManager {
 			playAudioVideo(media.getSound(), media.getVideo());
 			break;
 		case ARDUINO:
-			arduino.sendString(media.getVideo());
+			//arduino.sendString(media.getVideo());
 			break;
 		case LIGHTS:
 			Lights.mod = Integer.parseInt(media.getVideo());

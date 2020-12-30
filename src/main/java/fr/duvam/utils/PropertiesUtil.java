@@ -42,6 +42,16 @@ public class PropertiesUtil {
 		return list;
 	}
 
+	public String getArduinoOutFile() {
+		switch (OSValidator.getOS()) {
+		case PI:
+			return getString("pi.arduino.out");
+		case DEBIAN:
+			return getString("debian.arduino.out");
+		}
+		return "";
+	}
+	
 	public String getLogPath() {
 		switch (OSValidator.getOS()) {
 		case WIN:
