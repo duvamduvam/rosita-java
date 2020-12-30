@@ -51,6 +51,16 @@ public class PropertiesUtil {
 		}
 		return "";
 	}
+
+	public String getArduinoDir() {
+		switch (OSValidator.getOS()) {
+		case PI:
+			return getString("pi.arduino.dir");
+		case DEBIAN:
+			return getString("debian.arduino.dir");
+		}
+		return "";
+	}
 	
 	public String getLogPath() {
 		switch (OSValidator.getOS()) {

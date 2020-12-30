@@ -20,6 +20,7 @@ public class FileChangedWatcher implements Runnable {
 	private static final Logger LOGGER = Logger.getLogger(FileChangedWatcher.class);
 
 	File file;
+	Path path;
 	CommandListener commandListener;
 
 	public static void main(String[] args) {
@@ -30,6 +31,7 @@ public class FileChangedWatcher implements Runnable {
 		PropertiesUtil properties = new PropertiesUtil();
 		String arduinoOutFile = properties.getArduinoOutFile();
 		file = new File(arduinoOutFile);
+		path = Paths.get(properties.getArduinoDir());
 		this.commandListener = commandListener;
 
 	}
@@ -39,7 +41,7 @@ public class FileChangedWatcher implements Runnable {
 			WatchService watchService = FileSystems.getDefault().newWatchService();
 
 			// Only the delete event is fired once
-			Path path = Paths.get("/home/david/tmp");
+
 			path.register(watchService, StandardWatchEventKinds.ENTRY_DELETE);
 			WatchKey key;
 			while ((key = watchService.take()) != null) {
@@ -53,7 +55,6 @@ public class FileChangedWatcher implements Runnable {
 				key.reset();
 			}
 		} catch (IOException | InterruptedException e) {
-			// TODO Auto-generated catch block
 			LOGGER.error(e);
 		}
 	}
