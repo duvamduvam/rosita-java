@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 import fr.duvam.lights.Lights;
 import fr.duvam.listener.CommandListener;
-import fr.duvam.listener.Java8WatchServiceExample;
+import fr.duvam.listener.FileWatcher;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
 import fr.duvam.utils.OSValidator;
@@ -84,7 +84,7 @@ public class Rosita {
 		mediaListenerThread.start();
 
 		// arduino listener
-		Java8WatchServiceExample fileListener = new Java8WatchServiceExample(keyListener);
+		FileWatcher fileListener = new FileWatcher(keyListener);
 		Thread fileListenerThread = new Thread(fileListener);
 		fileListenerThread.setDaemon(true);
 		fileListenerThread.start();

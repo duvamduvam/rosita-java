@@ -4,6 +4,7 @@ import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;
 import static java.nio.file.StandardWatchEventKinds.ENTRY_MODIFY;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.FileVisitResult;
@@ -18,10 +19,15 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.io.input.ReversedLinesFileReader;
+import org.apache.log4j.Logger;
+
 import fr.duvam.utils.PropertiesUtil;
 
-public class Java8WatchServiceExample implements Runnable {
+public class FileWatcher implements Runnable {
 
+	private static final Logger LOGGER = Logger.getLogger(FileWatcher.class);
+	CommandListener commandListener;
 	WatchService watcher;
 	Map<WatchKey, Path> keys;
 
@@ -32,7 +38,8 @@ public class Java8WatchServiceExample implements Runnable {
 	/**
 	 * Creates a WatchService and registers the given directory
 	 */
-	public Java8WatchServiceExample(CommandListener keyListener) {
+	public FileWatcher(CommandListener commandListener) {
+		this.commandListener = commandListener;
 		try {
 			this.watcher = FileSystems.getDefault().newWatchService();
 			this.keys = new HashMap<WatchKey, Path>();
@@ -106,7 +113,9 @@ public class Java8WatchServiceExample implements Runnable {
 				System.out.format("%s: %s\n", event.kind().name(), child);
 
 				if (child.toString().contains("arduinoOut")) {
-					System.out.println("bingo");
+					String lastLine = getLastLine(child.toFile());
+					LOGGER.info("marduino msg -> " + lastLine);
+					commandListener.addKey(lastLine);
 				}
 
 				// if directory is created, and watching recursively, then register it and its
@@ -133,6 +142,27 @@ public class Java8WatchServiceExample implements Runnable {
 				}
 			}
 		}
+	}
+
+	protected String getLastLine(File file) {
+
+		int n_lines = 1;
+		ReversedLinesFileReader object;
+		String result = "";
+		try {
+			object = new ReversedLinesFileReader(file);
+			for (int i = 0; i < n_lines; i++) {
+				String line = object.readLine();
+				if (line == null)
+					break;
+				result += line;
+			}
+		} catch (IOException e) {
+			LOGGER.error(e);
+		}
+
+		return result;
+
 	}
 
 	@Override
