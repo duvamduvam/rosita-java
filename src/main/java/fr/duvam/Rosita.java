@@ -5,8 +5,8 @@ import javax.swing.SwingUtilities;
 import org.apache.log4j.Logger;
 
 import fr.duvam.lights.Lights;
+import fr.duvam.listener.CheckLastModified;
 import fr.duvam.listener.CommandListener;
-import fr.duvam.listener.FileWatcher;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
 import fr.duvam.utils.OSValidator;
@@ -84,7 +84,7 @@ public class Rosita {
 		mediaListenerThread.start();
 
 		// arduino listener
-		FileWatcher fileListener = new FileWatcher(keyListener);
+		CheckLastModified fileListener = new CheckLastModified(keyListener);
 		Thread fileListenerThread = new Thread(fileListener);
 		fileListenerThread.setDaemon(true);
 		fileListenerThread.start();
