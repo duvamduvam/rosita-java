@@ -66,14 +66,14 @@ public class Rosita {
 	protected void start() {
 
 		playerManager.videoPlayer.playDefault();
-		initListeners(commands, lights);
+		initListeners();
 
 	}
 
-	private void initListeners(CommandListener keyListener, Lights lights) {
+	private void initListeners() {
 
 		// key listener
-		Thread keyListenerThread = new Thread(keyListener);
+		Thread keyListenerThread = new Thread(commands);
 		keyListenerThread.setDaemon(true);
 		keyListenerThread.start();
 
@@ -84,7 +84,7 @@ public class Rosita {
 		mediaListenerThread.start();
 
 		// arduino listener
-		CheckLastModified fileListener = new CheckLastModified(keyListener);
+		CheckLastModified fileListener = new CheckLastModified(playerManager, commands);
 		Thread fileListenerThread = new Thread(fileListener);
 		fileListenerThread.setDaemon(true);
 		fileListenerThread.start();

@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.apache.commons.io.input.ReversedLinesFileReader;
 import org.apache.log4j.Logger;
 
+import fr.duvam.media.PlayerManager;
 import fr.duvam.utils.PropertiesUtil;
 
 public class CheckLastModified implements Runnable {
@@ -13,10 +14,11 @@ public class CheckLastModified implements Runnable {
 	private static final Logger LOGGER = Logger.getLogger(CheckLastModified.class);
 	
 	CommandListener commandListener;
+	private PlayerManager playerManager;
 	
-	
-	public CheckLastModified(CommandListener commandListener) {
+	public CheckLastModified(PlayerManager playerManager,CommandListener commandListener) {
 		this.commandListener = commandListener;
+		this.playerManager = playerManager;
 	}
 
 	@Override
@@ -33,6 +35,9 @@ public class CheckLastModified implements Runnable {
 				
 				String lastLine = getLastLine(file);
 				LOGGER.info("new arduino input : "+lastLine);
+				
+				playerManager.play(lastLine);
+				
 				//commandListener.addKey(lastLine);
 				
 				lastModif = file.lastModified() ;
