@@ -41,56 +41,62 @@ public class PlayerManager {
 
 	public void play(String key) {
 
-		MediaItem media = mediaLoading.getMedia(key);
+		try {
 
-		if (media == null) {
-			LOGGER.error("no media for key " + key);
-			return;
-		}
+			MediaItem media = mediaLoading.getMedia(key);
 
-		LOGGER.info(media.getType().toString() + " key : " + key + " video : " + media.getVideo() + " sound " + media.getSound());
-		switch (media.getType()) {
-		case GIF:
-			// TODO make full screen integrated to jpane
-			videoPlayer.playGIF(media.getVideo());
-			break;
-		case VIDEO:
-			String video = media.getVideo();
-			videoPlayer.play(video, false);
-			break;
-		case VIDEOR:
-			String videor = media.getVideo();
-			videoPlayer.play(videor, true);
-			break;
+			if (media == null) {
+				LOGGER.error("no media for key " + key);
+				return;
+			}
 
-		// TODO use speak video with time frame ?
-		// case SPEAK:
-		// audioPlayer.speak(media.getSound());
-		// break;
-		case AUDIO_VIDEO:
-			playAudioVideo(media.getSound(), media.getVideo());
-			break;
-		case ARDUINO:
-			//arduino.sendString(media.getVideo());
-			break;
-		case LIGHTS:
-			Lights.mod = Integer.parseInt(media.getVideo());
-			break;
-		//case MIDI:
-		//	midi.sendMsg(media.getVideo());
+			LOGGER.info(media.getType().toString() + " key : " + key + " video : " + media.getVideo() + " sound "
+					+ media.getSound());
+			switch (media.getType()) {
+			case GIF:
+				// TODO make full screen integrated to jpane
+				videoPlayer.playGIF(media.getVideo());
+				break;
+			case VIDEO:
+				String video = media.getVideo();
+				videoPlayer.play(video, false);
+				break;
+			case VIDEOR:
+				String videor = media.getVideo();
+				videoPlayer.play(videor, true);
+				break;
+
+			// TODO use speak video with time frame ?
+			// case SPEAK:
+			// audioPlayer.speak(media.getSound());
+			// break;
+			case AUDIO_VIDEO:
+				playAudioVideo(media.getSound(), media.getVideo());
+				break;
+			case ARDUINO:
+				// arduino.sendString(media.getVideo());
+				break;
+			case LIGHTS:
+				Lights.mod = Integer.parseInt(media.getVideo());
+				break;
+			// case MIDI:
+			// midi.sendMsg(media.getVideo());
 			// Lights.mod = Integer.parseInt(media.getVideo());
-		//	break;
-		case EMOTION:
-			break;
-		case SPEAK:
-			break;
-		case RELOAD:
-			ShellCommands shell = new ShellCommands();
-			shell.pull();
-			mediaLoading.loadMediaFile();
-			break;
+			// break;
+			case EMOTION:
+				break;
+			case SPEAK:
+				break;
+			case RELOAD:
+				ShellCommands shell = new ShellCommands();
+				shell.pull();
+				mediaLoading.loadMediaFile();
+				break;
+			}
+			videoPlayer.setDefaultPlaying(false);
+		} catch (NullPointerException e) {
+			LOGGER.error(e);
 		}
-		videoPlayer.setDefaultPlaying(false);
 	}
 
 	public void playAudioVideo(String audio, String video) {
