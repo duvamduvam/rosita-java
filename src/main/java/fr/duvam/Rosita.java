@@ -21,7 +21,7 @@ public class Rosita {
 	private PlayerManager playerManager;
 	private Lights lights;
 	PropertiesUtil properties;
-	
+
 	public static void main(String[] args) {
 
 		SwingUtilities.invokeLater(new Runnable() {
@@ -35,11 +35,11 @@ public class Rosita {
 	public Rosita() {
 
 		properties = new PropertiesUtil();
-		
+
 		initLog();
 
 		commands = new CommandListener();
-		//ArduinoComm arduino = new ArduinoComm(commands, properties);
+		// ArduinoComm arduino = new ArduinoComm(commands, properties);
 		// midi listener and player !!!! leave the lister before the player therwise the
 		// player don't work
 		// TODO could be moved inside playerManager
@@ -53,13 +53,13 @@ public class Rosita {
 	}
 
 	void initLog() {
-		// init log4j property logging		
+		// init log4j property logging
 		String logsPath = properties.getLogPath();
-		System.setProperty("logsPath", logsPath);		
+		System.setProperty("logsPath", logsPath);
 		String os = OSValidator.getFullOS();
 
 		System.setProperty("hostName", os);
-		
+
 		LOGGER = Logger.getLogger(Rosita.class);
 		LOGGER.info("current os : " + os);
 	}
@@ -68,27 +68,73 @@ public class Rosita {
 
 		playerManager.videoPlayer.playDefault();
 		initListeners(commands, lights);
+
+		Thread fileListenerThread = initArduinoListener(commands);
+
+		// check arduino listener alive
+		new Thread(new Runnable() {
+			public void run() {
+				Thread innerThread = fileListenerThread;
+				try {
+					innerThread.join();
+				} catch (Exception e) {
+					LOGGER.error("arduino thread dead");
+					innerThread = initArduinoListener(commands);
+				}
+			}
+		}).start();
+
 	}
 
 	private void initListeners(CommandListener keyListener, Lights lights) {
 
 		// key listener
-		Thread keyListenerThread = new Thread(keyListener);
-		keyListenerThread.setDaemon(true);
-		keyListenerThread.start();
+		// Thread keyListenerThread = new Thread(keyListener);
+		// keyListenerThread.setDaemon(true);
+		// keyListenerThread.start();
 
 		// video listener
 		MediaListener mediaListener = new MediaListener(playerManager);
 		Thread mediaListenerThread = new Thread(mediaListener);
 		mediaListenerThread.setDaemon(true);
 		mediaListenerThread.start();
-		
-		//arduino listener
+
+		// arduino listener
 		FileChangedWatcher fileListener = new FileChangedWatcher(keyListener);
 		Thread fileListenerThread = new Thread(fileListener);
 		fileListenerThread.setDaemon(true);
 		fileListenerThread.start();
-		
+
+		// check arduino listener alive
+		new Thread(new Runnable() {
+			public void run() {
+				try {
+					fileListenerThread.join();
+				} catch (Exception e) {
+					LOGGER.info("arduino thread dead");
+				} finally {
+
+				}
+			}
+		}).start();
+
+		// light listener
+		// Thread lightsListenerThread = new Thread(lights);
+		// lightsListenerThread.setDaemon(true);
+		// lightsListenerThread.start();
+
+	}
+
+	private Thread initArduinoListener(CommandListener keyListener) {
+
+		// arduino listener
+		FileChangedWatcher fileListener = new FileChangedWatcher(keyListener);
+		Thread fileListenerThread = new Thread(fileListener);
+		fileListenerThread.setDaemon(true);
+		fileListenerThread.start();
+
+		return fileListenerThread;
+
 		// light listener
 		// Thread lightsListenerThread = new Thread(lights);
 		// lightsListenerThread.setDaemon(true);
