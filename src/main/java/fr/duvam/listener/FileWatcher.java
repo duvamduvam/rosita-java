@@ -147,6 +147,7 @@ public class FileWatcher implements Runnable {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			LOGGER.trace("file watcher loop");
 		}
 	}
 
