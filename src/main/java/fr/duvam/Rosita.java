@@ -5,9 +5,8 @@ import javax.swing.SwingUtilities;
 import org.apache.log4j.Logger;
 
 import fr.duvam.lights.Lights;
-import fr.duvam.listener.CheckArduinoListenerAlive;
 import fr.duvam.listener.CommandListener;
-import fr.duvam.listener.FileChangedWatcher;
+import fr.duvam.listener.FileWatcher;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
 import fr.duvam.utils.OSValidator;
@@ -67,18 +66,8 @@ public class Rosita {
 	protected void start() {
 
 		playerManager.videoPlayer.playDefault();
-
-		// TODO clean around
 		initListeners(commands, lights);
 
-		Thread fileListenerThread = initArduinoListener(commands);
-
-		//TODO finish this
-		//CheckArduinoListenerAlive fileChangerListenerAlive = new CheckArduinoListenerAlive(fileListenerThread, commands);
-		//Thread fileChangerListenerAliveThread = new Thread(fileChangerListenerAlive);
-		//fileChangerListenerAliveThread.setDaemon(true);
-		//fileChangerListenerAliveThread.start();
-		
 	}
 
 	private void initListeners(CommandListener keyListener, Lights lights) {
@@ -94,23 +83,12 @@ public class Rosita {
 		mediaListenerThread.setDaemon(true);
 		mediaListenerThread.start();
 
-		// light listener
-		// Thread lightsListenerThread = new Thread(lights);
-		// lightsListenerThread.setDaemon(true);
-		// lightsListenerThread.start();
-
-	}
-
-	private Thread initArduinoListener(CommandListener keyListener) {
-
 		// arduino listener
-		FileChangedWatcher fileListener = new FileChangedWatcher(keyListener);
+		FileWatcher fileListener = new FileWatcher(keyListener);
 		Thread fileListenerThread = new Thread(fileListener);
 		fileListenerThread.setDaemon(true);
 		fileListenerThread.start();
-
-		return fileListenerThread;
-
+		
 		// light listener
 		// Thread lightsListenerThread = new Thread(lights);
 		// lightsListenerThread.setDaemon(true);

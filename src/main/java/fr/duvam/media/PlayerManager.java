@@ -46,7 +46,7 @@ public class PlayerManager {
 			MediaItem media = mediaLoading.getMedia(key);
 
 			if (media == null) {
-				LOGGER.trace("no media for key " + key);
+				LOGGER.info("no media for key " + key);
 				return;
 			}
 
