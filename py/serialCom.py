@@ -31,7 +31,15 @@ if __name__ == '__main__':
         ser = serial.Serial(portPrefix+port, 115200, timeout=1)
         ser.flush()
         print('start listening arduino port')
+        
+        # Append-adds at last 
+
+
+        
         while True:
             if ser.in_waiting > 0:
                 line = ser.readline().decode('utf-8').rstrip()
                 print(line)
+                file1 = open("arduinoOut", "a")  # append mode 
+                file1.write(line+"\n") 
+                file1.close() 
