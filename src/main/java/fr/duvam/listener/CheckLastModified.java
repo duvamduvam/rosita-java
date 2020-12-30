@@ -33,7 +33,7 @@ public class CheckLastModified implements Runnable {
 				
 				String lastLine = getLastLine(file);
 				LOGGER.info("new arduino input : "+lastLine);
-				commandListener.addKey(lastLine);
+				//commandListener.addKey(lastLine);
 				
 				lastModif = file.lastModified() ;
 			}
