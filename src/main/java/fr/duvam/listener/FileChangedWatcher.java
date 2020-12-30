@@ -51,6 +51,10 @@ public class FileChangedWatcher implements Runnable {
 			while ((key = watchService.take()) != null) {
 				for (WatchEvent<?> event : key.pollEvents()) {
 
+					LOGGER.info(
+	  	                  "Event kind:" + event.kind() 
+	  	                    + ". File affected: " + event.context() + ".");
+					
 					String lastLine = getLastLine();
 					LOGGER.info("marduino msg -> " + lastLine);
 					commandListener.addKey(lastLine);
