@@ -4,8 +4,8 @@ import javax.swing.SwingUtilities;
 
 import org.apache.log4j.Logger;
 
-import fr.duvam.arduino.ArduinoComm;
 import fr.duvam.lights.Lights;
+import fr.duvam.listener.CheckArduinoListenerAlive;
 import fr.duvam.listener.CommandListener;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
@@ -73,23 +73,12 @@ public class Rosita {
 
 		Thread fileListenerThread = initArduinoListener(commands);
 
-		//TODO finish check arduino listener alive
-		new Thread(new Runnable() {
-			public void run() {
-				Thread innerThread = fileListenerThread;
-				while (true) {
-					try {
-						innerThread.join();
-						LOGGER.trace("arduino thread alive");
-						Thread.sleep(1000);
-					} catch (Exception e) {
-						LOGGER.error("arduino thread dead");
-						innerThread = initArduinoListener(commands);
-					}
-				}
-			}
-		}).start();
-
+		
+		CheckArduinoListenerAlive fileChangerListenerAlive = new CheckArduinoListenerAlive(fileListenerThread, commands);
+		Thread fileChangerListenerAliveThread = new Thread(fileChangerListenerAlive);
+		fileChangerListenerAliveThread.setDaemon(true);
+		fileChangerListenerAliveThread.start();
+		
 	}
 
 	private void initListeners(CommandListener keyListener, Lights lights) {
