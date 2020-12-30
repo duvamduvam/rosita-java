@@ -73,13 +73,14 @@ public class Rosita {
 
 		Thread fileListenerThread = initArduinoListener(commands);
 
-		// check arduino listener alive
+		//TODO finish check arduino listener alive
 		new Thread(new Runnable() {
 			public void run() {
 				Thread innerThread = fileListenerThread;
 				while (true) {
 					try {
 						innerThread.join();
+						LOGGER.trace("arduino thread alive");
 						Thread.sleep(1000);
 					} catch (Exception e) {
 						LOGGER.error("arduino thread dead");
