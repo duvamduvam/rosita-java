@@ -73,4 +73,5 @@ y|MIDI|60|*
 $A11|VIDEO|videos/speak-10.mp4|*
 $A12|VIDEO|videos/angry-speak.mp4|*
 $A15|VIDEO|videos/bored.mp4|*
+$A16|AUDIO_VIDEO|videos/speak-10.mp4|audios/100bonjour.wav
 $D24|RELOAD|*|*

@@ -5,7 +5,6 @@ import os.path
 ports= ['ttyACM0', 'ttyACM1', 'ttyACM2',  'ttyACM3'] 
 
 portPrefix = '/dev/'
-lockPrefix = '/var/lock/LCK..'
 if __name__ == '__main__':
     port = ''
     for p in ports:
@@ -25,9 +24,6 @@ if __name__ == '__main__':
     if (port == ''):
         print('can t find arduino port')
     else:
-        if os.path.isfile(lockPrefix+port):
-            os.remove(lockPrefix+port) 
-        
         ser = serial.Serial(portPrefix+port, 115200, timeout=1)
         ser.flush()
         print('start listening arduino port')
