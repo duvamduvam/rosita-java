@@ -30,4 +30,6 @@ $B15|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeChristelle.wav
 $B16|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneLy.wav
 $B19|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneSeb.wav
 $B20|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeMaman.wav
+$A23|VIDEOR|videos/speak-1.mp4|*
+$A24|VIDEOR|videos/rbase.mp4|*
 $D24|RELOAD|*|*
