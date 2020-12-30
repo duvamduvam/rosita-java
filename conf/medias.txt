@@ -74,4 +74,11 @@ $A11|VIDEO|videos/speak-10.mp4|*
 $A12|VIDEO|videos/angry-speak.mp4|*
 $A15|VIDEO|videos/bored.mp4|*
 $A16|AUDIO_VIDEO|videos/speak-10.mp4|audios/100bonjour.wav
+$B3|AUDIO_VIDEO|videos/speak-1.mp4|audios/salutCarole.wav
+$B4|AUDIO_VIDEO|videos/speak-1.mp4|audios/freddy.wav
+$B7|AUDIO_VIDEO|videos/speak-1.mp4|audios/salutHelene.wav
+$B8|AUDIO_VIDEO|videos/speak-1.mp4|audios/salutMarie.wav
+$B11|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneLesCopains.wav
+$B12|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeRose.wav
+$B15|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeChristelle.wav
 $D24|RELOAD|*|*
