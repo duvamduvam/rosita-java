@@ -2,6 +2,13 @@ package fr.duvam.listener;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardWatchEventKinds;
+import java.nio.file.WatchEvent;
+import java.nio.file.WatchKey;
+import java.nio.file.WatchService;
 
 import org.apache.commons.io.input.ReversedLinesFileReader;
 import org.apache.log4j.Logger;
@@ -9,16 +16,14 @@ import org.apache.log4j.Logger;
 import fr.duvam.utils.PropertiesUtil;
 
 public class FileChangedWatcher implements Runnable {
-	
+
 	private static final Logger LOGGER = Logger.getLogger(FileChangedWatcher.class);
-	
+
 	File file;
 	CommandListener commandListener;
-	
-	public static void main(String args[]) {
-		//FileChangedWatcher watcher = new FileChangedWatcher("/home/david/tmp/out");
-		//try {
-		//	watcher.watch();
+
+	public static void main(String[] args) {
+
 	}
 
 	public FileChangedWatcher(CommandListener commandListener) {
@@ -26,25 +31,30 @@ public class FileChangedWatcher implements Runnable {
 		String arduinoOutFile = properties.getArduinoOutFile();
 		file = new File(arduinoOutFile);
 		this.commandListener = commandListener;
+
 	}
 
-	public void watch(){
-		long currentModifiedDate = file.lastModified();
+	public void watch() {
+		try {
+			WatchService watchService = FileSystems.getDefault().newWatchService();
 
-		while (true) {
-			LOGGER.trace("check arduino file");
-			long newModifiedDate = file.lastModified();
+			// Only the delete event is fired once
+			Path path = Paths.get("/home/david/tmp");
+			path.register(watchService, StandardWatchEventKinds.ENTRY_DELETE);
+			WatchKey key;
+			while ((key = watchService.take()) != null) {
+				for (WatchEvent<?> event : key.pollEvents()) {
 
-			if (newModifiedDate != currentModifiedDate) {
-				currentModifiedDate = newModifiedDate;
-				onModified();
+					String lastLine = getLastLine();
+					LOGGER.info("marduino msg -> " + lastLine);
+					commandListener.addKey(lastLine);
+
+				}
+				key.reset();
 			}
-
-			try {
-				Thread.sleep(100);
-			} catch (InterruptedException e) {
-				LOGGER.error(e);
-			}
+		} catch (IOException | InterruptedException e) {
+			// TODO Auto-generated catch block
+			LOGGER.error(e);
 		}
 	}
 
@@ -52,7 +62,7 @@ public class FileChangedWatcher implements Runnable {
 		return file.getAbsolutePath();
 	}
 
-	protected void onModified() {
+	protected String getLastLine() {
 
 		int n_lines = 1;
 		ReversedLinesFileReader object;
@@ -69,8 +79,8 @@ public class FileChangedWatcher implements Runnable {
 			LOGGER.error(e);
 		}
 
-		LOGGER.info("marduino msg -> "+result);
-		commandListener.addKey(result);
+		return result;
+
 	}
 
 	@Override
