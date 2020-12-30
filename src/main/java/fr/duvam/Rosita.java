@@ -93,9 +93,9 @@ public class Rosita {
 	private void initListeners(CommandListener keyListener, Lights lights) {
 
 		// key listener
-		// Thread keyListenerThread = new Thread(keyListener);
-		// keyListenerThread.setDaemon(true);
-		// keyListenerThread.start();
+		Thread keyListenerThread = new Thread(keyListener);
+		keyListenerThread.setDaemon(true);
+		keyListenerThread.start();
 
 		// video listener
 		MediaListener mediaListener = new MediaListener(playerManager);
