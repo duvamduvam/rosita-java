@@ -27,4 +27,7 @@ $B8|AUDIO_VIDEO|videos/speak-1.mp4|audios/salutMarie.wav
 $B11|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneLesCopains.wav
 $B12|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeRose.wav
 $B15|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeChristelle.wav
+$B16|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneLy.wav
+$B19|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneSeb.wav
+$B20|AUDIO_VIDEO|videos/speak-1.mp4|audios/bonneAnneeMaman.wav
 $D24|RELOAD|*|*
