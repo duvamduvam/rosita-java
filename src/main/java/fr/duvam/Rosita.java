@@ -67,8 +67,12 @@ public class Rosita {
 	protected void start() {
 
 		playerManager.videoPlayer.playDefault();
+		
+		
+		//TODO clean around
 		initListeners(commands, lights);
 
+	
 		Thread fileListenerThread = initArduinoListener(commands);
 
 		// check arduino listener alive
@@ -99,24 +103,6 @@ public class Rosita {
 		mediaListenerThread.setDaemon(true);
 		mediaListenerThread.start();
 
-		// arduino listener
-		FileChangedWatcher fileListener = new FileChangedWatcher(keyListener);
-		Thread fileListenerThread = new Thread(fileListener);
-		fileListenerThread.setDaemon(true);
-		fileListenerThread.start();
-
-		// check arduino listener alive
-		new Thread(new Runnable() {
-			public void run() {
-				try {
-					fileListenerThread.join();
-				} catch (Exception e) {
-					LOGGER.info("arduino thread dead");
-				} finally {
-
-				}
-			}
-		}).start();
 
 		// light listener
 		// Thread lightsListenerThread = new Thread(lights);
