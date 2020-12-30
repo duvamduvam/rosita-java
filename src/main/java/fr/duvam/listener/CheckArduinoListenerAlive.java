@@ -16,15 +16,17 @@ public class CheckArduinoListenerAlive implements Runnable {
 		this.keyListener = keyListener;
 	}
 	
+	
+	@Override	
 	public void run() {
 		while (true) {
 			try {
-				arduinoThread.join();
+				arduinoThread.isAlive();				
 				LOGGER.trace("arduino thread alive");
 				Thread.sleep(1000);
 			} catch (Exception e) {
 				LOGGER.error("arduino thread dead");
-				//arduinoThread = initArduinoListener(keyListener);
+				arduinoThread = initArduinoListener(keyListener);
 			}
 		}
 	}
