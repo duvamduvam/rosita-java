@@ -97,6 +97,9 @@ public class FileWatcher implements Runnable {
 
 	}
 
+	
+	
+	
 	protected void notifyListeners(WatchEvent.Kind<?> kind, File file) {
 
 		FileEvent event = new FileEvent(file);
