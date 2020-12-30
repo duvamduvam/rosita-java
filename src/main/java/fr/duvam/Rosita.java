@@ -74,10 +74,10 @@ public class Rosita {
 		Thread fileListenerThread = initArduinoListener(commands);
 
 		//TODO finish this
-		/*CheckArduinoListenerAlive fileChangerListenerAlive = new CheckArduinoListenerAlive(fileListenerThread, commands);
+		CheckArduinoListenerAlive fileChangerListenerAlive = new CheckArduinoListenerAlive(fileListenerThread, commands);
 		Thread fileChangerListenerAliveThread = new Thread(fileChangerListenerAlive);
 		fileChangerListenerAliveThread.setDaemon(true);
-		fileChangerListenerAliveThread.start();*/
+		fileChangerListenerAliveThread.start();
 		
 	}
 

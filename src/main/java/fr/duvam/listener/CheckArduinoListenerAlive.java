@@ -24,7 +24,7 @@ public class CheckArduinoListenerAlive implements Runnable {
 				Thread.sleep(1000);
 			} catch (Exception e) {
 				LOGGER.error("arduino thread dead");
-				arduinoThread = initArduinoListener(keyListener);
+				//arduinoThread = initArduinoListener(keyListener);
 			}
 		}
 	}
