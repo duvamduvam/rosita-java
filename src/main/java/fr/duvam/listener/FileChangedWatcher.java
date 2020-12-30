@@ -45,8 +45,7 @@ public class FileChangedWatcher implements Runnable {
 
 			// Only the delete event is fired once
 
-			path.register(watchService, StandardWatchEventKinds.ENTRY_CREATE, 
-				      StandardWatchEventKinds.ENTRY_DELETE, 
+			path.register(watchService,  
 				        StandardWatchEventKinds.ENTRY_MODIFY);
 			WatchKey key;
 			while ((key = watchService.take()) != null) {
