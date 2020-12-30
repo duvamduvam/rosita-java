@@ -3,8 +3,6 @@ package fr.duvam.listener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.duvam.utils.FileChangedWatcher;
-
 public class CheckArduinoListenerAlive implements Runnable {
 	
 	private static Logger LOGGER = LoggerFactory.getLogger(CheckArduinoListenerAlive.class);

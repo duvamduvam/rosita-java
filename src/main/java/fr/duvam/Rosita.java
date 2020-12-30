@@ -7,9 +7,9 @@ import org.apache.log4j.Logger;
 import fr.duvam.lights.Lights;
 import fr.duvam.listener.CheckArduinoListenerAlive;
 import fr.duvam.listener.CommandListener;
+import fr.duvam.listener.FileChangedWatcher;
 import fr.duvam.listener.MediaListener;
 import fr.duvam.media.PlayerManager;
-import fr.duvam.utils.FileChangedWatcher;
 import fr.duvam.utils.OSValidator;
 import fr.duvam.utils.PropertiesUtil;
 

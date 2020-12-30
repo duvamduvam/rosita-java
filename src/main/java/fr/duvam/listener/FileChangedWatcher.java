@@ -1,4 +1,4 @@
-package fr.duvam.utils;
+package fr.duvam.listener;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import org.apache.commons.io.input.ReversedLinesFileReader;
 import org.apache.log4j.Logger;
 
-import fr.duvam.listener.CommandListener;
+import fr.duvam.utils.PropertiesUtil;
 
 public class FileChangedWatcher implements Runnable {
 	
@@ -32,6 +32,7 @@ public class FileChangedWatcher implements Runnable {
 		long currentModifiedDate = file.lastModified();
 
 		while (true) {
+			LOGGER.trace("check arduino file");
 			long newModifiedDate = file.lastModified();
 
 			if (newModifiedDate != currentModifiedDate) {
