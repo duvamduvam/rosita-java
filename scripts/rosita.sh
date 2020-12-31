@@ -6,3 +6,5 @@ python3 /home/pi/rosita/rosita-java/scripts/serialCom.py > /home/pi/rosita/ardui
 
 cd /home/pi/rosita/rosita-java
 java -jar ./target/rosita-jar-with-dependencies.jar
+
+$SHELL
